@@ -27,7 +27,7 @@ body
     margin:3em;
     margin-bottom:6em;
     color:#fff;
-    text-align:center;
+    box-align:center;
 
 }
 .zuo
@@ -52,3 +52,5 @@ body
     width:47px ;
     height:47px;   
 }
+.se
+{color:#fff;}
