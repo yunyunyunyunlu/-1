@@ -9,50 +9,52 @@ body
 }
 .fanhui1
 {
-    width:40px;
-    height:40px;
+    width:37px;
+    height:37px;
 }
 .putaoteng 
 {
     margin-top:4em;
     text-align:center;
-    margin:0em;
+    margin:0;
 }
 .putaoteng1
-{ width:150px; 
-    height:60px;
+{ width:120px; 
+    height:46px;
 }
 .zi
 {
     margin:3em;
-    margin-bottom:6em;
+    margin-top:5em;
     color:#fff;
     box-align:center;
     letter-spacing: 3px;
     line-height: 200%;
-
+    font-size:18px;
 }
 .zuo
 {
     float: left;
     margin-left:4em;
+    margin-top:2em;
     text-align:center;   
 }
 .zuo1
 { 
-    width:47px; 
-    height:47px;
+    width:55px; 
+    height:55px;
 }
 .you
 {
     float: right;
     margin-right: 4em;
+    margin-top:2em;
     text-align:center;
 }
 .you1 
 { 
-    width:47px ;
-    height:47px;   
+    width:55px ;
+    height:55px;   
 }
 .se
 {color:#fff;}
