@@ -5,33 +5,50 @@ body
 .fanhui 
 {
     margin:1em;
+
+}
+.fanhui1
+{
+    width:30px;
+    height:30px;
 }
 .putaoteng 
 {
-    margin-top:5em;
-    width:100px;
-    height:47px;
+    margin-top:4em;
+    text-align:center;
+    margin:0em;
+}
+.putaoteng1
+{ width:150px; 
+    height:60px;
 }
 .zi
 {
     margin:3em;
-    margin-bottom:9em;
+    margin-bottom:6em;
     color:#fff;
+    text-align:center;
 
 }
 .zuo
 {
     float: left;
     margin-left:4em;
+    text-align:center;   
+}
+.zuo1
+{ 
     width:47px; 
-    height:47px;   
+    height:47px;
 }
 .you
 {
     float: right;
     margin-right: 4em;
+    text-align:center;
+}
+.you1 
+{ 
     width:47px ;
     height:47px;   
-  
 }
- 
