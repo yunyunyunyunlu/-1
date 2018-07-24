@@ -1,28 +1,29 @@
 body 
 {
-    background-color: #68cdd5
+    background-color: #68cdd5;
+    margin:0;
 }
-.fanhui 
+.return 
 {
     margin:1em;
 
 }
-.fanhui1
+.return1
 {
     width:37px;
     height:37px;
 }
-.putaoteng 
+.logo 
 {
     margin-top:4em;
     text-align:center;
     margin:0;
 }
-.putaoteng1
+.logo1
 { width:120px; 
     height:46px;
 }
-.zi
+.describe
 {
     margin:3em;
     margin-top:5em;
@@ -32,29 +33,29 @@ body
     line-height: 200%;
     font-size:18px;
 }
-.zuo
+.left
 {
     float: left;
     margin-left:4em;
     margin-top:2em;
     text-align:center;   
 }
-.zuo1
+.left1
 { 
     width:55px; 
     height:55px;
 }
-.you
+.right
 {
     float: right;
     margin-right: 4em;
     margin-top:2em;
     text-align:center;
 }
-.you1 
+.right1 
 { 
     width:55px ;
     height:55px;   
 }
-.se
+.color
 {color:#fff;}
