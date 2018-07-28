@@ -101,19 +101,20 @@ input::-webkit-input-placeholder
 .end
 {
     width:100%;
-     height:4.2rem;
      position:fixed;
      left:0;
      top:16rem;
-    background-color: #68cdd5;
+
 }
 .login1
 {
+   
+ height: 4.3rem;
     color: #fff;
     font-size:1.4rem;
     text-align:center;
     line-height:80%;
-
+    background-color: #68cdd5;
 }
 .forget
 {
