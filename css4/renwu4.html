@@ -8,19 +8,14 @@
         <meta name="Description" content="ceshi4" />
         <title>renwu4</title>
         <link rel = "stylesheet" type = "text/css" href = "style4.css"></link> 
-        </style>
     </head>
     <body>
         <!--TOP开始-->
      <div class="top">    
-         <div  class="login"> <p>登录</p> 
-         </div>
-         <div  class="close"> 
-              <p>关闭</p>
-            </div>
-         <div class="register"> 
-            <p >注册</p>
-        </div> 
+        <p class="login">登录</p> 
+        <p class="close">关闭</p>          
+        <p class="register">注册</p>
+
     </div> 
         <!--TOP结束-->
 
@@ -30,7 +25,8 @@
                 <div></div>
             </div>
               <div class="fn">
-                <input type="text" name="firstname"  placeholder="请输入手机号"  maxlength="11" >
+                <input type="text" name="firstname"  placeholder="请输入手机号" maxlength="11" 
+                onkeyup="value=value.replace(/[^\d]/g,'')">
             </div>
        
 </div>
@@ -41,17 +37,15 @@
         <div></div>
     </div>
           <div class="fn">
-            <input type="password" name="password"  placeholder="请输入密码" >
+            <input type="password" name="password"  placeholder="请输入密码"
+            onkeyup="this.size=(this.value.length>1?this.value.length:1);"  >
         </div>
  
 </div>
 <!--end开始-->
 <div class="end">
-    <input type="submit" value="登 录"  class="login1">
+    <button type="botton"  class="login1">登 录</button>
 </div>
 </form>
-<div  class="forget"> 
-        <p>忘记密码？</p> 
-    </div>
-
+     <a class="forget">忘记密码？</a> 
     </body>

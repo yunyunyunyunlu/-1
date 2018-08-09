@@ -69,10 +69,10 @@ body
 {
     position: absolute;
     left:4.5rem;
-    top:2px;
+    top:-.2rem;
     width:.1rem;
     height: 2rem;
-     background: #eaedee;
+    background: #eaedee;
 
 }
 
@@ -116,6 +116,7 @@ input::-webkit-input-placeholder
 {
    
  height: 4.3rem;
+ width: 100%;
     color: #fff;
     font-size:1.4rem;
     text-align:center;
@@ -125,8 +126,8 @@ input::-webkit-input-placeholder
 .forget
 {
     position:absolute;
-right:1rem;
-top:20rem  ;
-font-size:1.2rem;
-color: #68cdd5;
+    right:1rem;
+    top:21.4rem  ;
+    font-size:1.2rem;
+    color: #68cdd5;
 }
