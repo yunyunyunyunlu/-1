@@ -21,31 +21,20 @@
 
         <form>    
 <div class="account">
-            <div class="iph">  <img  src="image4/iphone@2x.png" class="iphimg" >
-                <div></div>
-            </div>
-              <div class="fn">
-                <input type="text" name="firstname"  placeholder="请输入手机号" maxlength="11" 
-                onkeyup="value=value.replace(/[^\d]/g,'')">
-            </div>
-       
-</div>
-
-<form>
-<div class="password">
-    <div class="iph">  <img  src="image4/locked 2@2x.png" class="iphimg" >
-        <div></div>
-    </div>
-          <div class="fn">
-            <input type="password" name="password"  placeholder="请输入密码"
-            onkeyup="this.size=(this.value.length>1?this.value.length:1);"  >
-        </div>
- 
-</div>
-<!--end开始-->
-<div class="end">
-    <button type="botton"  class="login1">登 录</button>
+        <img  src="image4/iphone@2x.png" class="iphimg" >
+        <input type="text" name="firstname"  placeholder="请输入手机号" maxlength="11" 
+        onkeyup="value=value.replace(/[^\d]/g,'')">           
+       <!--onkeyup是只能输入数字-->
 </div>
 </form>
-     <a class="forget">忘记密码？</a> 
+<form>
+<div class="password">
+    <img  src="image4/locked 2@2x.png" class="iphimg" >
+    <input type="password" name="password"  placeholder="请输入密码">
+</div>
+</form>
+<!--end开始-->
+ <button type="botton"  class="login1">登 录</button>
+
+<a class="forget">忘记密码？</a> 
     </body>
