@@ -82,7 +82,7 @@ input{
     border: 0px;
     outline: none;
     width: calc(100% - 1.49rem);
-    height:1rem;
+    height:.3rem;
 }
 
 input::-webkit-input-placeholder 
