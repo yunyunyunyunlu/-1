@@ -1,20 +1,102 @@
-body 
-{  
+html{
+    font-size:312.5% ;
+}
+body {  
     margin:0;
 }
-.top
-{
-    position:fixed;
-      left:0;
-      top:0;
+ .header{
+    position:absolute;
+    left:0;
+    top:0;
     width:100%;
-    height:3.69rem;
+    height:.88rem;
     background-color: #68cdd5;
-}
-.login
-{
+  }
+  .home
+  {
     line-height: 50%; 
-    font-size:1.125rem;
+    font-size:.36rem;
     text-align:center;
     color: #fff;
+  }
+.return
+{    position:absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  float: left;
+  padding-left: .34rem;
+  width: .22rem;
+  height: .37rem;
+
+}
+.user
+{
+  display: flex;
+  flex-direction: row;
+  position:fixed;
+  top:.85rem;
+  min-width: 1000px;
+  width: 100%;
+  height: 3.27rem;
+  background-image:url(image/doctor.png);
+  background-size: cover;
+  z-index:-1;
+  
+}
+
+.girl
+{
+  padding-left: .3rem;
+  padding-top: .78rem;
+  width:1.69rem;
+  height: 1.70rem;
+}
+info{
+  display: flex;
+  flex-direction:column;
+}
+.namebox{
+  display: flex;
+  flex-direction: row;
+align-items: center;
+padding-top: 1.16rem;
+padding-left: .4rem;
+margin:0;
+}
+.name
+{
+  font-size: .36rem;
+  color: #fff;
+  padding-left: .1rem;
+  margin:0;
+}
+.age
+{
+padding-left: .3rem;
+margin: 0;
+  font-size: .28rem;
+  color: #fff;
+
+
+}
+.adsbox{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+padding-left: .44rem; 
+
+}
+.address
+{
+  font-size: .24rem;
+  color: #fff;
+  padding-left: .14rem;
+  margin: 0；
+
+}
+.shape
+{
+  width:.18rem;
+  height:.23rem;
 }
