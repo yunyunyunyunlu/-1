@@ -4,11 +4,7 @@ html{
 body {  
     margin:0;
 }
-.layout{
-  display: flex;
-  flex-direction: column;
 
-}
 /* 个人主页 */
  .header{
   position:fixed;
@@ -37,6 +33,9 @@ body {
   padding-left: .34rem;
   width: .22rem;
   height: .37rem;
+}
+.none{
+  height:.88rem;
 }
 /* 头像姓名地址 */
 .user
@@ -109,92 +108,111 @@ margin: 0;
 
 }
 /* 专业技能 */
+.ski{
+  margin: 0;
+ border-bottom: .02rem solid #E1E5E7;
+ font-size: .32rem;
+ padding: .38rem .59rem .34rem;
+
+}
+.ski::before{
+    content: " ";
+    position: relative;
+    top:1rem;
+    left:.3rem;
+    width: 3rem;
+    height: 1.26rem;
+    background: #5c8d14;
+}
 .skill{
   display: flex;
   flex-direction: column;
   justify-content:  space-around;
-  
   height: 7.01rem;
-  margin-left: 0.61rem;
+  margin-left: 0.35rem;
 }
 .skill p{
   font-size: .32rem;
+  padding-left: .26rem;
 }
-.ski{
-  font-size: .32rem;
-  margin: 0;
-  margin-top: .38rem;
- 
-  
-}
-.ski::before{
-    content: " ";
-    position:fixed;
 
-    left:.3rem;
-    width: .03rem;
-    height: .26rem;
-    background: #5c8d14;
-}
-.ski::after{
-  content: " ";
-  position:fixed;
-  top:5.47rem;
-  width: 6.87rem;
-  height: 0.02rem;
-  background: #E1E5E7;
-}
+  
+
 .live{
   display: flex;
   flex-direction: row;
   align-items: center;
+  border-bottom: .02rem solid #E1E5E7
+
 }
 .live img{
   width: .24rem;
   height: .23rem;
+  margin-right: .09rem;
+}
+.live p{
+  margin-right: .38rem;
+padding: 0
 }
 .year{  
   display: flex;
   flex-direction: row;
+  border-bottom: .02rem solid #E1E5E7;
+   height: 1rem;
 
 
 }
+
 .time{  
   display: flex;
   flex-direction: row;
+  border-bottom: .02rem solid #E1E5E7
+
 }
-.peice{  
+.price{  
   display: flex;
   flex-direction: row;
+  border-bottom: .02rem solid #E1E5E7
 }
 .intro{  
   display: flex;
   flex-direction: row;
+  border-bottom: .02rem solid #E1E5E7
+
+}
+.none1{
+  height: .96rem;
 }
 /* 留言 */
 .mes{
-  position:fixed;
-bottom: .25rem;
+ position:fixed;
+ bottom: .36rem;
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
   width: 100%;
-  font-size: .32rem;
-  margin: 0 .33rem;
- 
+  height: .96rem;
   background-color: #fff;
+  padding: 0 .33rem;
+
 }
 .massage{
+  width:50%;
+  align-self: center;
   border:.02rem solid  #5c8d14;
-  padding:.48em 1.3rem;
+  color: #5c8d14;
   border-radius: .1rem;
-  margin: 0;
+  padding: 0 .33rem;
+
 }
 .tele{
-  border:.02rem solid  #5c8d14;
-  padding:.48em .9rem;
+  width:50%;
+  align-self: center;
+padding: 0 .33rem;
   background: #5c8d14;
+  color: #fff;
   border-radius: .1rem;
-  margin: 0;
- margin-right:1rem; 
+}
+.mes p{
+  text-align: center;
+  font-size: .32rem;
 }
