@@ -4,44 +4,51 @@ html{
 body {  
     margin:0;
 }
+.layout{
+  display: flex;
+  flex-direction: column;
+
+}
+/* 个人主页 */
  .header{
-    position:absolute;
-    left:0;
-    top:0;
-    width:100%;
+  position:fixed;
+  top:0;
+  left:0;
+  width: 100%;
     height:.88rem;
-    background-color: #68cdd5;
+    background-color: #5c8d14;
   }
-  .home
-  {
-    line-height: 50%; 
+  .header p{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    margin: 0;
     font-size:.36rem;
-    text-align:center;
     color: #fff;
+
   }
-.return
-{    position:absolute;
+.header img{ 
+  float: left;
+  position: relative;
   top: 50%;
   transform: translateY(-50%);
 
-  float: left;
   padding-left: .34rem;
   width: .22rem;
   height: .37rem;
-
 }
+/* 头像姓名地址 */
 .user
 {
   display: flex;
   flex-direction: row;
-  position:fixed;
-  top:.85rem;
-  min-width: 1000px;
   width: 100%;
   height: 3.27rem;
-  background-image:url(image/doctor.png);
+  background-image:url(image/doctor1.png);
+ 
   background-size: cover;
-  z-index:-1;
+
   
 }
 
@@ -68,7 +75,7 @@ margin:0;
 {
   font-size: .36rem;
   color: #fff;
-  padding-left: .1rem;
+
   margin:0;
 }
 .age
@@ -84,7 +91,7 @@ margin: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
-padding-left: .44rem; 
+  padding-left: .44rem
 
 }
 .address
@@ -99,4 +106,95 @@ padding-left: .44rem;
 {
   width:.18rem;
   height:.23rem;
+
+}
+/* 专业技能 */
+.skill{
+  display: flex;
+  flex-direction: column;
+  justify-content:  space-around;
+  
+  height: 7.01rem;
+  margin-left: 0.61rem;
+}
+.skill p{
+  font-size: .32rem;
+}
+.ski{
+  font-size: .32rem;
+  margin: 0;
+  margin-top: .38rem;
+ 
+  
+}
+.ski::before{
+    content: " ";
+    position:fixed;
+
+    left:.3rem;
+    width: .03rem;
+    height: .26rem;
+    background: #5c8d14;
+}
+.ski::after{
+  content: " ";
+  position:fixed;
+  top:5.47rem;
+  width: 6.87rem;
+  height: 0.02rem;
+  background: #E1E5E7;
+}
+.live{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.live img{
+  width: .24rem;
+  height: .23rem;
+}
+.year{  
+  display: flex;
+  flex-direction: row;
+
+
+}
+.time{  
+  display: flex;
+  flex-direction: row;
+}
+.peice{  
+  display: flex;
+  flex-direction: row;
+}
+.intro{  
+  display: flex;
+  flex-direction: row;
+}
+/* 留言 */
+.mes{
+  position:fixed;
+bottom: .25rem;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  width: 100%;
+  font-size: .32rem;
+  margin: 0 .33rem;
+ 
+  background-color: #fff;
+}
+.massage{
+  border:.02rem solid  #5c8d14;
+  padding:.48em 1.3rem;
+  border-radius: .1rem;
+  margin: 0;
+}
+.tele{
+  border:.02rem solid  #5c8d14;
+  padding:.48em .9rem;
+  background: #5c8d14;
+  border-radius: .1rem;
+  margin: 0;
+ margin-right:1rem; 
 }
