@@ -5,6 +5,7 @@ body {
     margin:0;
 }
 
+
 /* 个人主页 */
  .header{
   position:fixed;
@@ -109,6 +110,7 @@ margin: 0;
 }
 /* 专业技能 */
 .ski{
+  position: relative;
   margin: 0;
  border-bottom: .02rem solid #E1E5E7;
  font-size: .32rem;
@@ -116,14 +118,16 @@ margin: 0;
 
 }
 .ski::before{
-    content: " ";
-    position: relative;
-    top:1rem;
-    left:.3rem;
-    width: 3rem;
-    height: 1.26rem;
+  content: " ";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    left: .26rem;
+    width: .03rem;
+    height: .26rem;
     background: #5c8d14;
-}
+  }
 .skill{
   display: flex;
   flex-direction: column;
@@ -142,8 +146,8 @@ margin: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
-  border-bottom: .02rem solid #E1E5E7
-
+  border-bottom: .02rem solid #E1E5E7;
+  margin-left:.26rem;
 }
 .live img{
   width: .24rem;
@@ -180,6 +184,26 @@ padding: 0
   border-bottom: .02rem solid #E1E5E7
 
 }
+.title{
+  position: relative;
+
+  margin-right: .54rem;
+  color: #999999;
+  flex-shrink: 0;
+}
+.title::after{
+  content:"";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: .26rem;
+  width: .02rem;
+  height: .26rem;
+  background: #5c8d14;
+}
+.col{
+  color: #E26163;
+}
 .none1{
   height: .96rem;
 }
@@ -192,7 +216,6 @@ padding: 0
   width: 100%;
   height: .96rem;
   background-color: #fff;
-  padding: 0 .33rem;
 
 }
 .massage{
