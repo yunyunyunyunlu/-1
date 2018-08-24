@@ -13,7 +13,7 @@ body {
   left:0;
   width: 100%;
   height:.88rem;
-  background-color: #5c8d14;
+  background-color: #5FC0CD;
   }
   .header p{
   position: relative;
@@ -43,7 +43,7 @@ body {
   flex-direction: row;
   width: 100%;
   height: 3.27rem;
-  background-image:url(image/doctor1.png);
+  background-image:url(image/doctor.png);
   background-size: cover;
 }
 .girl{
@@ -61,6 +61,7 @@ info{
   flex-direction: row;
   align-items: center;
   margin:0;
+  margin-bottom: .25rem;
   padding-top: 1.16rem;
   padding-left: .4rem;
 }
@@ -71,6 +72,7 @@ info{
 }
 .age{
   margin: 0;
+
   padding-left: .3rem;
   font-size: .28rem;
   color: #fff;
@@ -107,7 +109,7 @@ info{
   left: 1em;
   width: .04rem;
   height: .26rem;
-  background: #5c8d14;
+  background: #5FC0CD;
 }
 .skill{
   display: flex;
@@ -143,7 +145,7 @@ info{
   left: 1.42rem;
   width: .03rem;
   height: .26rem;
-  background: #5c8d14;
+  background: #E1E5E7;
 }
 .year{  
   display: flex;
@@ -183,7 +185,7 @@ info{
   left: 1.9rem;
   width: .02rem;
   height: .26rem;
-  background: #5c8d14;
+  background: #E1E5E7;
 }
 .col{
   color: #E26163;
@@ -204,11 +206,11 @@ info{
 .massage{
   width:50%;
   align-self: center;
-  border:.02rem solid  #5c8d14;
+  border:.02rem solid  #5FC0CD;
   border-radius: .1rem;
   margin-left: .11rem;
   margin-right: .33rem;
-  color: #5c8d14;
+  color: #5FC0CD;
 }
 .tele{
   align-self: center;
@@ -216,7 +218,7 @@ info{
   margin-left: .11rem;
   margin-right: .33rem;
   width:50%;
-  background: #5c8d14;
+  background: #5FC0CD;
   color: #fff;
 }
 .mes p{
