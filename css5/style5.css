@@ -14,26 +14,24 @@ body {
   width: 100%;
   height:.88rem;
   background-color: #5FC0CD;
+  z-index: 9999;
   }
   .header p{
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  margin: 0;
-  font-size:.36rem;
-  text-align: center;
-  color: #fff;
+    line-height: 50%; 
+    font-size:.36rem;
+    text-align:center;
+    color: #fff;
+
   }
 .header img{ 
-  position: relative;
+  position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  float: left;
-  padding-left: .34rem;
+  left:.34rem;
   width: .22rem;
   height: .37rem;
 }
-.none{
+.none2{
   height:.88rem;
 }
 /* 头像姓名地址 */
@@ -41,6 +39,7 @@ body {
 {
   display: flex;
   flex-direction: row;
+  align-items: center;
   width: 100%;
   height: 3.27rem;
   background-image:url(image/doctor.png);
@@ -48,7 +47,6 @@ body {
 }
 .girl{
   padding-left: .3rem;
-  padding-top: .78rem;
   width:1.69rem;
   height: 1.70rem;
 }
@@ -62,7 +60,6 @@ info{
   align-items: center;
   margin:0;
   margin-bottom: .25rem;
-  padding-top: 1.16rem;
   padding-left: .4rem;
 }
 .name{
@@ -94,12 +91,32 @@ info{
   height:.23rem;
 }
 /* 专业技能 */
+.skill{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+.skill ul{
+ padding-left: .35rem
+}
+.skill li{
+  /* height: 1rem; */
+}
+.skill p{
+  padding-left: .26rem;
+  font-size: .32rem;
+}
 .ski{
+
  position: relative;
+ display: flex;
+ align-items: center;
  border-bottom: .02rem solid #E1E5E7;
- margin: 0;
- padding: .38rem .59rem .34rem;
+ padding-left: .59rem;
  font-size: .32rem;
+ height: 1rem;
 }
 .ski::before{
   content: " ";
@@ -111,17 +128,7 @@ info{
   height: .26rem;
   background: #5FC0CD;
 }
-.skill{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  margin-left: 0.35rem;
-  height: 7.01rem;
-}
-.skill p{
-  padding-left: .26rem;
-  font-size: .32rem;
-}
+
 .live{
   position: relative;
   display: flex;
@@ -203,25 +210,25 @@ info{
  height: .96rem;
  background-color: #fff;
 }
-.massage{
+
+.mes button{
   width:50%;
-  align-self: center;
-  border:.02rem solid  #5FC0CD;
-  border-radius: .1rem;
-  margin-left: .11rem;
-  margin-right: .33rem;
+  border-radius: .1rem;  
+  height: 1rem;
+  font-size:.32rem;
+  text-align:center;
+}
+.massage{
+  margin-left:.32rem;
+  margin-right: .1rem; 
   color: #5FC0CD;
+  border: .02rem solid #5FC0CD;
+  background-color: #fff; 
 }
 .tele{
-  align-self: center;
-  border-radius: .1rem;
-  margin-left: .11rem;
-  margin-right: .33rem;
-  width:50%;
-  background: #5FC0CD;
+  margin-right:.32rem;
+  margin-left: .1rem; 
+  border: .02rem solid #5FC0CD;
+  background-color: #5FC0CD; 
   color: #fff;
-}
-.mes p{
-  text-align: center;
-  font-size: .32rem;
 }
