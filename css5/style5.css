@@ -192,13 +192,13 @@ info{
 /* 留言 */
 .mes{
  position:fixed;
- bottom: .36rem;
+ bottom:0px;
  display: flex;
  flex-direction: row;
+ padding-bottom:.36rem; 
  width: 100%;
  background-color: #fff;
 }
-
 .mes button{
   width:50%;
   border-radius: .1rem;  
