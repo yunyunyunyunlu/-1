@@ -23,5 +23,10 @@
      (3)定义列表 dl,列表项始于 <dt> ，定义始于 <dd> 
 
 3、（1）ul li带有默认样式，
-ul,li{ padding:0;margin:0;type:none}
-清除li前面的黑点
+        ul,li{ padding:0;margin:0;type:none}清除li前面的黑点，w3c上用type，菜鸟和网上大部分是list-style-type还有list-style的。
+         
+     （2）换成图片是ul {
+	list-style-image:url('78787.gif');
+}
+
+     

@@ -21,7 +21,6 @@ body {
     font-size:.36rem;
     text-align:center;
     color: #fff;
-
   }
 .header img{ 
   position: absolute;
@@ -38,7 +37,6 @@ body {
 .user
 {
   display: flex;
-  flex-direction: row;
   align-items: center;
   width: 100%;
   height: 3.27rem;
@@ -56,7 +54,6 @@ info{
 }
 .namebox{
   display: flex;
-  flex-direction: row;
   align-items: center;
   margin:0;
   margin-bottom: .25rem;
@@ -76,7 +73,6 @@ info{
 }
 .adsbox{
   display: flex;
-  flex-direction: row;
   align-items: center;
   padding-left: .44rem
 }
@@ -101,9 +97,7 @@ info{
 .skill ul{
  padding-left: .35rem
 }
-.skill li{
-  /* height: 1rem; */
-}
+
 .skill p{
   padding-left: .26rem;
   font-size: .32rem;
@@ -132,7 +126,6 @@ info{
 .live{
   position: relative;
   display: flex;
-  flex-direction: row;
   align-items: center;
   border-bottom: .02rem solid #E1E5E7;
 }
@@ -156,24 +149,20 @@ info{
 }
 .year{  
   display: flex;
-  flex-direction: row;
   border-bottom: .02rem solid #E1E5E7;
   height: 1rem;
 }
 
 .time{  
   display: flex;
-  flex-direction: row;
   border-bottom: .02rem solid #E1E5E7
 }
 .price{  
   display: flex;
-  flex-direction: row;
   border-bottom: .02rem solid #E1E5E7
 }
 .intro{  
   display: flex;
-  flex-direction: row;
   border-bottom: .02rem solid #E1E5E7
 }
 .title{
@@ -207,13 +196,13 @@ info{
  display: flex;
  flex-direction: row;
  width: 100%;
- height: .96rem;
  background-color: #fff;
 }
 
 .mes button{
   width:50%;
   border-radius: .1rem;  
+  outline: none;
   height: 1rem;
   font-size:.32rem;
   text-align:center;
