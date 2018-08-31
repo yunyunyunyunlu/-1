@@ -30,6 +30,20 @@ body {
   width: .22rem;
   height: .37rem;
 }
+.a{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left:.34rem;
+  margin-top: -.05rem;
+  width:.2rem ;
+  height: .2rem;
+  border: #fff;
+  border-style:solid;
+  border-width:0 0 .03rem .03rem ;
+  transform: rotate(45deg); 
+	transform-origin:100% 50%; 
+}
 .none2{
   height:.88rem;
 }
@@ -187,36 +201,34 @@ info{
   color: #E26163;
 }
 .none1{
-  height: .96rem;
+  height: 2.26rem;
 }
 /* 留言 */
 .mes{
  position:fixed;
  bottom:0px;
  display: flex;
- flex-direction: row;
- padding-bottom:.36rem; 
+ align-content: center;
  width: 100%;
+ height: 1.3rem;
  background-color: #fff;
 }
 .mes button{
   width:50%;
   border-radius: .1rem;  
   outline: none;
-  height: 1rem;
+  height: .9rem;
   font-size:.32rem;
   text-align:center;
 }
 .massage{
-  margin-left:.32rem;
-  margin-right: .1rem; 
+  margin:.2rem;
   color: #5FC0CD;
   border: .02rem solid #5FC0CD;
   background-color: #fff; 
 }
 .tele{
-  margin-right:.32rem;
-  margin-left: .1rem; 
+  margin:.2rem;
   border: .02rem solid #5FC0CD;
   background-color: #5FC0CD; 
   color: #fff;
