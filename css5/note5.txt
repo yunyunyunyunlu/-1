@@ -29,4 +29,6 @@
 	list-style-image:url('78787.gif');
 }
 
-     
+ 4、（1）怎么运用FLEX布局
+块状只需要display属性规定为flex即可。 
+行内元素也可以指定为flex布局，将display属性设置为inline-flex。 还有WebKit内核的浏览器需要加上-webkit前缀。 需要注意的是设置成为flex布局之后，子元素的float，clear，text-align，vertical-align就会失效。    
