@@ -107,6 +107,7 @@ info{
   justify-content: space-around;
   margin: 0;
   padding: 0;
+  background-color: #fff;
 }
 .skill ul{
  padding-left: .35rem
@@ -211,7 +212,7 @@ info{
  align-content: center;
  width: 100%;
  height: 1.3rem;
- /* background-color: #fff; */
+ background-color: #fff;
 }
 .mes button{
   width:50%;
