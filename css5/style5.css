@@ -44,8 +44,11 @@ body {
   transform: rotate(45deg); 
 	transform-origin:100% 50%; 
 }
-.none2{
-  height:.88rem;
+main{
+  position: relative;
+  padding-top: .88rem;
+  padding-bottom: 1.3rem;
+
 }
 /* 头像姓名地址 */
 .user
@@ -200,9 +203,6 @@ info{
 }
 .col{
   color: #E26163;
-}
-.none1{
-  height: 2.26rem;
 }
 /* 留言 */
 .mes{
