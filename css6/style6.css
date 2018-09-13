@@ -222,9 +222,10 @@ ul{
   display: flex;
   flex-direction: column;
   align-content: space-between;
-  /* align-content: center; */
   margin:.09rem 0 .14rem 1.7rem;
- 
+  border: none;
+  background-color: #F8FAFB;
+  outline:none;
 
 }
 .houseImg{
@@ -250,6 +251,8 @@ width: .94rem;
     border-radius: .5rem; 
     background-color: #5FC0CD;
     z-index: -1;
+    border: none;
+    outline:none;
 }
 
 .writeImg{
@@ -267,7 +270,9 @@ width: .94rem;
     align-content: space-between;
     align-items: center;
     margin:.09rem 1.7rem .14rem 0;
-
+    border: none;
+    outline:none;
+    background-color:#F8FAFB;
 
 }
 .peopleImg{
