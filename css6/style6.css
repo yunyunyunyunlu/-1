@@ -72,6 +72,7 @@ main{
     flex: 30%;    
     position: relative;
     display: inline-block;
+ 
 }
 
 .adsContent{
@@ -139,7 +140,7 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
+    width: 70%;
   }
   .aMas{
     display: flex;
@@ -163,6 +164,9 @@ ul{
   .scope{
     font-size: .28rem;
     margin-left: .36rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
   .sha{
     display: inline-block; 
@@ -180,6 +184,7 @@ ul{
       line-height: 50%;
   }
   .pri{
+
       display: flex;
       align-items: center;
   }
