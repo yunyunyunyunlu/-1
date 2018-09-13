@@ -10,9 +10,7 @@ body {
     left:0;
     display: flex;
     justify-content: center;
-    align-content: center; 
     align-items: center;
-
     width: 100%;
     height:.88rem;
     background-color: #5FC0CD;
@@ -20,16 +18,15 @@ body {
     }
     
 .employer{
-    /* align-self: center; */
     display: flex;
     justify-content: center;
+    align-items: center;
     border-radius: .1rem;  
     height: .7rem;
     width: 1.43rem;
     background-color: #55A8B3;
 }
 .employer p{
-    align-self: center;
     font-size: .34rem;
     color: #fff;
 }
@@ -37,23 +34,21 @@ body {
 {   
     display: flex;
     justify-content: center;
-    align-self: center;
+    align-items: center;
     border-radius: .1rem;  
     height: .7rem;
     width: 1.43rem;
     background-color: #fff;
 }
 .nurse p{
-    align-self: center;
     font-size: .34rem;
     color: #5FC0CD;
 }
 .top img{
     position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  right:.3rem;
-
+    top: 50%;
+    transform: translateY(-50%);
+    right:.3rem;
     width: .44rem;
     height: .42rem;
 }
@@ -61,84 +56,76 @@ main{
     position: relative;
     padding-top: .88rem;
     padding-bottom: 1.3rem;
-  
-}.options{
+}
+.options{
     display: flex;
     align-items: center;
     height: .8rem;
-border-bottom: .01rem solid #E1E5E7;
+    border-bottom: .01rem solid #E1E5E7;
 }
 .options p{
     font-size: .28rem;
 }
-/* 下拉三角 */
-.triangle{
+
+
+.ads{
+    flex: 30%;    
     position: relative;
-  display: inline-block;
-    align-self: center;
+    display: inline-block;
+}
+
+.adsContent{
+    display: none;
+    position: absolute;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: #f9f9f9;
+    margin-top: .09rem;
+    border:.01rem solid #E1E5E7;
+    z-index: 1;
+}
+.adsContent a{
+    display: block;
+    height: .8rem;
+    line-height: .8rem;
+    color: #000;
+    font-size: .32rem;
+    text-decoration: none;
+    text-align: center;
+    border-bottom:.01rem solid #E1E5E7;
+
+}
+
+.ads:hover .adsContent{
+    display: block;
+}
+.adsContent a:hover{
+    background-color: #55A8B3;
+}
+ 
+.adsbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: .6rem;
+    border-right:.01rem solid #E1E5E7;
+}
+
+.adsbtn p{
+
+}
+.triangle{
+    position: absolute;
+    right: .12rem;   
     width: 0; 
     height: 0; 
     border-left: .08rem solid transparent; 
     border-right: .08rem solid transparent; 
     border-top: .1rem solid #AFBAC0; 
-
-
+    margin-right: .12rem
 }
-.contentTri{
-    display: none;
-    position: absolute;
-    list-style:none;
-    font-size: .32rem;
-    background-color: #f9f9f9;
-    color: #000;
-    min-width: 1rem;
-    padding: 12px 16px;
 
-}
-.triangle:hover .contentTri {
-    display: block;
-  }
-
-/* 下拉三角结束 */
-.ads{
-    flex: 30%;
-    display: flex;
-    height: .6rem;
-    align-items: center;
-    border-right:.01rem solid #E1E5E7;
-}
-.ads p{
-    margin-left:.67rem;
-    margin-right: .66rem;
-}
-.room{
-    flex: 30%;
-    display: flex;
-    align-content: center;
-    height: .6rem;
-    align-items: center;
-    border-right:.01rem solid #E1E5E7;
-
-
-}
-.room p{
-    margin-left:.85rem;
-    margin-right: .74rem;
-
-}
-.situation{
-    flex: 30%;
-    display: flex;
-    height: .6rem;
-    align-items: center;
-
-
-}
-.situation p{
-    margin-left:.48rem;
-    margin-right: .37rem;
-
-}
 /* 列表开始 */
 ul{
     margin: 0;
@@ -155,26 +142,25 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url(image6/caleSha.png);
-     background-repeat: no-repeat;
+
   }
   .aMas{
     display: flex;
-
+    align-items: center;
   }
   
   .calendar{
     display: inline-block; 
     height: .24rem;
-    width: .24rem;    
-    background-position: 0 0;
-      align-self: center;
-
+    width: .24rem; 
+    background-image: url(image6/caleSha.png);
+    background-repeat: no-repeat;
+    background-position:  -.2rem -.2rem;
   }
   .date{
     font-size: .24rem;
     color: #5D5D5D;
-margin:0 .15rem;
+    margin:0 .15rem;
 
   }
   .scope{
@@ -182,9 +168,13 @@ margin:0 .15rem;
     margin-left: .36rem;
   }
   .sha{
+    display: inline-block; 
     width: .19rem;
     height: .23rem;
-    align-self: center;
+    background-image: url(image6/caleSha.png);
+    background-repeat: no-repeat;
+    background-position:   -.84rem -.2rem;
+
   }
   .adss{
       font-size: .26rem;
@@ -225,7 +215,6 @@ margin:0 .15rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: .09rem 0 .14rem 0; */
     border-top: .01rem solid #E1E5E7; 
     width: 100%;
     height:.99rem;
@@ -235,17 +224,22 @@ margin:0 .15rem;
 .house{
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-content: space-between;
+  /* align-content: center; */
   margin:.09rem 0 .14rem 1.7rem;
+ 
 
 }
-.house img{
-
-    width:.42rem;
+.houseImg{
+    display: inline-block; 
     height: .42rem;
+    width: .46rem; 
+    background-image: url(image6/foot.png);
+    background-repeat: no-repeat;
+    background-position:  -10px -10px;
 }
 .house p{
-    margin:.16rem 0 0;
+    margin: 0;
     font-size: .2rem;
     color: #5FC0CD;
 }
@@ -253,41 +247,42 @@ margin:0 .15rem;
 
 display: flex;
 justify-content: center;
-align-content: center;
+align-items: center;
 width: .94rem;
     height: .94rem;
     border-radius: .5rem; 
     background-color: #5FC0CD;
     z-index: -1;
 }
-/* .allWrite::after{
-    content: " ";
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: .94rem;
-    height: .94rem;
-    border-radius: .5rem; 
-    background-color: #5FC0CD;
-    z-index: -1;
-} */
-.allWrite img{
-    width: .4rem;
-    height: .41rem;
+
+.writeImg{
+    display: inline-block; 
+    height: .42rem;
+    width: .46rem; 
+    background-image: url(image6/foot.png);
+    background-repeat: no-repeat;
+    background-position:   -53px -10px;
+    margin :0 0 .05rem .1rem;
 }  
 .people{
     display: flex;
     flex-direction: column;
-    align-content: center;
-    margin-right: 1.7rem;
+    align-content: space-between;
+    align-items: center;
+    margin:.09rem 1.7rem .14rem 0;
+
 
 }
-.people img{
-    width: .4rem;
-    height: .41rem;
+.peopleImg{
+    display: inline-block; 
+    height: .42rem;
+    width: .46rem; 
+    background-image: url(image6/foot.png);
+    background-repeat: no-repeat;
+    background-position: -10px -50px;
 }
 .people p{
-    margin:.16rem 0 0;
+    margin: 0;
     font-size: .2rem;
     color: #999999;
 }
