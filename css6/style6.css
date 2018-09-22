@@ -124,6 +124,7 @@ main{
     border-right:.01rem solid #E1E5E7;
 }
 
+
 .triangle{
     position: absolute;
     right: .12rem;   
@@ -205,10 +206,7 @@ ul{
    
   }
   .a{
-    /* position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left:.34rem; */
+   
     margin-top: .2rem;
     margin-left: .21rem;
     width:.2rem ;

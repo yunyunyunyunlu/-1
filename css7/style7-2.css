@@ -1,0 +1,173 @@
+html{
+    font-size:312.5% ;
+}
+body {  
+    margin:0;
+    background-color: #29BDE0;
+}
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .23rem;
+    box-sizing: border-box;
+    width: 100%;
+    height:.88rem;
+    background-color: #29BDE0;
+    z-index: 9999;
+}
+header p{
+    font-size: .34rem;
+    color: #fff;
+}
+.list{
+   display: flex;
+   flex-direction: column;
+ justify-content: space-between;
+   align-items: center;
+    padding: .07rem 0;
+    width: .39rem;
+    height: .4rem;
+    border: .02rem solid #fff;
+    outline:none;
+    background-color: #29BDE0;
+}
+.list1{
+    width: .3rem;
+    height: .02rem;
+    background: #fff;
+  }
+  .close{
+     position: relative; 
+    width: .5rem;
+      height: .02rem;
+      transform: rotate(45deg); 
+      border: none;
+      outline: none;
+      background-color: #FFF;
+  }
+  .close::after{
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: .5rem;
+    height: .03rem;
+    transform: rotate(90deg); 
+    border: none;
+    outline: none;
+    background-color: #FFF;
+  }  
+/* 请投票提示字 */
+.pleVote{
+    position: fixed;
+    top: .88rem;
+    left: .01rem;
+    padding-left: .46rem;
+    width: 100%;
+    height: .82rem;
+    background-color:#b9e9f5;
+    z-index: 2;
+
+}
+.audio{
+
+}
+
+.pleVote::after{
+    content: " ";
+    position: absolute;
+
+    top:.8rem;
+    left:.71rem;
+    width: 0; 
+    height: 0; 
+    border-left: .11rem solid transparent;  
+    border-right: .11rem solid transparent; 
+    border-top: .15rem solid #b9e9f5; 
+    z-index: 2;
+}
+.pleVote p{
+    font-size: .26rem;
+}
+.pleChoose{
+    position: fixed;
+    top:1.7rem;
+    left:0;
+    z-index: 1;
+    width: 100%;
+    height: .5rem;
+    background-color:#29BDE0; 
+}
+.pleChoose p{
+    margin-top:.24rem;
+    margin-left: .72rem;
+    font-size: .24rem;
+    color: #FFF;
+
+}
+/* 滚动头像 */
+.allPro{
+    position: relative;
+    top: 2.31rem;
+    bottom: 1.9rem;
+    height: 100%;
+    padding:0 .48rem 0 .41rem;
+    overflow-y: scroll;
+}
+.thrPro{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .84rem;
+}
+.portrait{
+    width: 1.36rem;
+    height: 1.36rem;
+    padding: 0;
+    border: .05rem solid #FFF;
+    background-color: #f5c97b;
+    outline:none;
+}
+.portrait p{
+    font-size: .3rem;
+    color: #565656;
+}
+.nurber{
+    width: 100%;
+    height: .27rem;
+    background-color: #83b09a;
+    
+}
+.nurber p{
+    font-size: .23rem;
+    color: #FFF;
+}
+/* 最后一个按钮 */
+footer{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 .47rem 0 .42rem; 
+}
+.last{
+    border-top: .02rem solid #FFF;
+    width: 100%;
+    height: 1.9rem;
+    background: #29BDE0;
+    text-align: center;
+}
+.kill{
+    width: 4.9rem;
+    height: .87rem;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: .38rem;    
+    color: #FFF;
+    background-color: #FBB435;
+}
