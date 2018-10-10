@@ -64,23 +64,23 @@ header p{
 /* 请投票提示字 */
 .pleVote{
     position: fixed;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
     top: .88rem;
     left: .01rem;
-    padding-left: .46rem;
+    padding:0 .17rem 0 .46rem;
     width: 100%;
     height: .82rem;
     background-color:#b9e9f5;
     z-index: 2;
+    box-sizing: border-box;
 
 }
-.audio{
-
-}
-
 .pleVote::after{
     content: " ";
     position: absolute;
-
     top:.8rem;
     left:.71rem;
     width: 0; 
@@ -92,6 +92,25 @@ header p{
 }
 .pleVote p{
     font-size: .26rem;
+}
+.audioIcon{
+    position: relative;
+    width: .52rem;
+    height: .52rem;
+    background: #FBB435;
+    border-radius: .26rem;
+}
+.audioIcon::after{
+    content: " ";
+    position: absolute;
+    left:.18rem;
+    top: .13rem;
+    width: 0;
+    height: 0;
+    border-top: .13rem solid transparent;
+    border-left: .26rem solid #fff;
+    border-bottom: .13rem solid transparent;
+ 
 }
 .pleChoose{
     position: fixed;
@@ -109,10 +128,14 @@ header p{
     color: #FFF;
 
 }
+.audio{
+    display: none;
+}
+
 /* 滚动头像 */
 .allPro{
     position: relative;
-    top: 2.31rem;
+    top: 2.69rem;
     bottom: 1.9rem;
     height: 100%;
     padding:0 .48rem 0 .41rem;
@@ -123,28 +146,80 @@ header p{
     justify-content: space-between;
     margin-bottom: .84rem;
 }
-.portrait{
-    width: 1.36rem;
-    height: 1.36rem;
-    padding: 0;
-    border: .05rem solid #FFF;
-    background-color: #f5c97b;
-    outline:none;
+.onePro{
+    display:flex;
+    flex-direction: column; 
 }
 .portrait p{
-    font-size: .3rem;
+    font-size: 4.3vw;
     color: #565656;
 }
 .nurber{
+    position: relative;
     width: 100%;
-    height: .27rem;
+    height: 4.5vw;
     background-color: #83b09a;
     
 }
 .nurber p{
-    font-size: .23rem;
+    font-size: 2vw;
+    height: 4.5vw;
+    line-height: 4.5vw;
     color: #FFF;
 }
+.portrait{
+    width: 20vw;
+    height: 20vw;
+    padding: 0;
+    border: .7vw solid #FFF;
+    background-color: #f5c97b;
+    outline:none;
+}
+.icon{
+    visibility:hidden;
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: .21rem;
+    width: 20vw;
+    height: auto;
+}
+.portrait:active .icon{
+    visibility:visible;
+}
+.icon1{
+    /* visibility:visible; */
+    background-image: url(image7/sprites.png);
+    background-repeat: no-repeat;
+    background-position: -80px -10px;
+    width: .3rem;
+    height: .3rem;
+}
+.icon2{
+    visibility:visible;
+    background-image: url(image7/sprites.png);
+    background-repeat: no-repeat;
+    background-position: -45px -10px;
+    width: .3rem;
+    height: .3rem;
+}
+.icon3{
+    visibility:visible;
+    background-image: url(image7/sprites.png);
+    background-repeat: no-repeat;
+    background-position: -115px -10px;
+    width: .3rem;
+    height: .3rem;
+}
+.icon4{
+    visibility:visible;
+    background-image: url(image7/sprites.png);
+    background-repeat: no-repeat;
+    background-position:  -10px -10px;
+    width: .3rem;
+    height: .3rem;
+}
+
 /* 最后一个按钮 */
 footer{
     position:fixed;
