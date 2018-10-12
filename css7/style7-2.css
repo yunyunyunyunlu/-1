@@ -133,18 +133,19 @@ header p{
 }
 
 /* 滚动头像 */
+main{
+    position: relative;
+    padding-top: 2.69rem;
+    padding-bottom: 1.9rem;
+}
 .allPro{
     position: relative;
-    top: 2.69rem;
-    bottom: 1.9rem;
-    height: 100%;
     padding:0 .48rem 0 .41rem;
-    overflow-y: scroll;
 }
 .thrPro{
     display: flex;
     justify-content: space-between;
-    margin-bottom: .84rem;
+    margin-bottom: .23rem;
 }
 .onePro{
     display:flex;
@@ -177,18 +178,16 @@ header p{
 }
 .icon{
     visibility:hidden;
-
     display: flex;
     justify-content: space-between;
     margin-top: .21rem;
     width: 20vw;
     height: auto;
 }
-.portrait:active .icon{
+.onePro:hover .icon{
     visibility:visible;
 }
 .icon1{
-    /* visibility:visible; */
     background-image: url(image7/sprites.png);
     background-repeat: no-repeat;
     background-position: -80px -10px;
@@ -196,7 +195,6 @@ header p{
     height: .3rem;
 }
 .icon2{
-    visibility:visible;
     background-image: url(image7/sprites.png);
     background-repeat: no-repeat;
     background-position: -45px -10px;
@@ -204,7 +202,6 @@ header p{
     height: .3rem;
 }
 .icon3{
-    visibility:visible;
     background-image: url(image7/sprites.png);
     background-repeat: no-repeat;
     background-position: -115px -10px;
@@ -212,7 +209,6 @@ header p{
     height: .3rem;
 }
 .icon4{
-    visibility:visible;
     background-image: url(image7/sprites.png);
     background-repeat: no-repeat;
     background-position:  -10px -10px;
