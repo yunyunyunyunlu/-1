@@ -145,7 +145,7 @@ main{
 .thrPro{
     display: flex;
     justify-content: space-between;
-    margin-bottom: .23rem;
+    margin-bottom: 3.5vw;
 }
 .onePro{
     display:flex;
@@ -180,7 +180,7 @@ main{
     visibility:hidden;
     display: flex;
     justify-content: space-between;
-    margin-top: .21rem;
+    margin-top: 2vw;
     width: 20vw;
     height: auto;
 }
@@ -188,32 +188,29 @@ main{
     visibility:visible;
 }
 .icon1{
-    background-image: url(image7/sprites.png);
-    background-repeat: no-repeat;
-    background-position: -80px -10px;
-    width: .3rem;
-    height: .3rem;
+  
+    width: 7vw;
+    height:7vw;
+    background: url(image7/sprites2.png) 0 0/100%;
+
 }
 .icon2{
-    background-image: url(image7/sprites.png);
-    background-repeat: no-repeat;
-    background-position: -45px -10px;
-    width: .3rem;
-    height: .3rem;
+
+    width: 7vw;
+    height:7vw;
+    background: url(image7/sprites2.png) 0 33%/100%;
+
 }
 .icon3{
-    background-image: url(image7/sprites.png);
-    background-repeat: no-repeat;
-    background-position: -115px -10px;
-    width: .3rem;
-    height: .3rem;
+    width:7vw;
+    height:7vw;
+    background: url(image7/sprites2.png) 0 69%/100%;
 }
+
 .icon4{
-    background-image: url(image7/sprites.png);
-    background-repeat: no-repeat;
-    background-position:  -10px -10px;
-    width: .3rem;
-    height: .3rem;
+    width: 7vw;
+    height:7vw;
+    background: url(image7/sprites2.png) 0 100%/100%;
 }
 
 /* 最后一个按钮 */
