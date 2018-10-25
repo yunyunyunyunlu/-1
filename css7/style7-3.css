@@ -71,15 +71,17 @@ main{
     flex-wrap: wrap;
 }
 .killer p{
+
     flex: 30%;
     margin: 0 0 .13rem;
     white-space: pre-wrap;
+    /* font-family: 黑体; */
 }
 .undercover{
     margin: 0 0 .10rem;
 }
 .water{
-    margin: 0 0 .24rem;
+    margin: 0;
 }
 /* 蓝底结束白底开始 */
 .everyDay{
@@ -135,8 +137,14 @@ footer{
     color: #FFF;
     background-color: #F66F6F;
     border-radius: .1rem;
-
 }
+footer a{
+    text-decoration : none
+}
+.again a:link {color: #FFF; text-decoration:none;}
+.again a:active {color: #FFF; text-decoration:none;} 
+.again a:visited {color:#FFF;text-decoration:none;}  
+.again a:hover {color: #FFF; text-decoration:none;}
 .putup{
     border: none;
     outline: none;

@@ -145,7 +145,7 @@ main{
 .thrPro{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 3.5vw;
+    margin-bottom: 2vw;
 }
 .onePro{
     display:flex;
@@ -172,7 +172,7 @@ main{
     width: 20vw;
     height: 20vw;
     padding: 0;
-    border: .7vw solid #FFF;
+    border: .5vw solid #FFF;
     background-color: #f5c97b;
     outline:none;
 }
@@ -180,7 +180,7 @@ main{
     visibility:hidden;
     display: flex;
     justify-content: space-between;
-    margin-top: 2vw;
+    margin-top: 1.5vw;
     width: 20vw;
     height: auto;
 }
@@ -189,27 +189,27 @@ main{
 }
 .icon1{
   
-    width: 7vw;
-    height:7vw;
+    width:5vw;
+    height:5vw;
     background: url(image7/sprites2.png) 0 0/100%;
 
 }
 .icon2{
 
-    width: 7vw;
-    height:7vw;
-    background: url(image7/sprites2.png) 0 33%/100%;
+    width:5vw;
+    height:5vw;
+    background: url(image7/sprites2.png) 0 33.5%/100%;
 
 }
 .icon3{
-    width:7vw;
-    height:7vw;
-    background: url(image7/sprites2.png) 0 69%/100%;
+    width:5vw;
+    height:5vw;
+    background: url(image7/sprites2.png) 0 67%/100%;
 }
 
 .icon4{
-    width: 7vw;
-    height:7vw;
+    width:5vw;
+    height:5vw;
     background: url(image7/sprites2.png) 0 100%/100%;
 }
 
