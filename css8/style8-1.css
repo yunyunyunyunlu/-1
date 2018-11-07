@@ -115,3 +115,14 @@ padding: 0 3.63rem 0 3.59rem;
     font-size: .16rem;
     color: #999999;
 }
+.four{
+   font-size: .18rem; 
+}
+.four p{
+    margin: 0;
+}
+.howStudy{
+    margin-top: 1.51rem;
+    font-size: .18rem;
+    font-weight: bold;
+}
