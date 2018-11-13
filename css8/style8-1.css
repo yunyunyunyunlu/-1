@@ -19,7 +19,7 @@ padding: 0 3.63rem 0 3.59rem;
     font-size: .14rem;
     color: #29B078;
 }
-.circle{
+.circle1{
     margin-left: .19rem;
     padding:.1rem;
     border-radius: 50%;
@@ -28,26 +28,23 @@ padding: 0 3.63rem 0 3.59rem;
     border: .01rem solid #29B078;
 }
 .icon1{
-    margin-top: -.065rem;
-    margin-left: -.07rem;
-    width: .14rem;
-    height: .12rem;
+    margin-left: .19rem;
+    width: .25rem;
+    height: .25rem;
     background: url(img8/contact.png) 0 0/100%;
 
 }
 .icon2{
-    margin-top: -.065rem;
-    margin-left: -.07rem;
-    width: .14rem;
-    height: .12rem;
+    margin-left: .19rem;
+    width: .25rem;
+    height: .25rem;
     background: url(img8/contact.png) 0 50%/100%;
 
 }
 .icon3{
-    margin-top: -.065rem;
-    margin-left: -.07rem;
-    width: .14rem;
-    height: .12rem;
+    margin-left: .19rem;
+    width: .25rem;
+    height: .25rem;
     background: url(img8/contact.png) 0 100%/100%;
 
 }
@@ -68,22 +65,25 @@ padding: 0 3.63rem 0 3.59rem;
     margin: 0;
     padding:0 .34rem;
     font-size: .16rem;
+    height: 1rem;
+    line-height: 1rem;
     color: #FFF;
 
 }
-.homePage{
+.second p:hover {   
     height: 1rem;
     line-height: 1rem;
     border-bottom: .04rem solid #FFF;
 }
+
 /* 轮播 */
-.slide{
+.thrCarousel{
     width: 100%;
     height: 6rem;
 }
 /* 灰色部分开始 */
 .details{
-   padding: 1.65rem 3.6rem 0 3.6rem;
+    padding-top: 1.77rem;
    background-color: #FAFAFA;
 
 }
@@ -97,13 +97,15 @@ padding: 0 3.63rem 0 3.59rem;
     margin: 0 auto;
 }
 .detailsPic1{
+    padding-top: .14rem;
     width: .6rem;
-    height: .48rem;
+    height: .62rem;
     margin: 0 auto;
 }
 .detailsPic2{
+    padding-top: .07rem;
     width: .52rem;
-    height: .55rem;
+    height: .62rem;
     margin: 0 auto;
 }
 .detailsBig{
@@ -116,13 +118,107 @@ padding: 0 3.63rem 0 3.59rem;
     color: #999999;
 }
 .four{
-   font-size: .18rem; 
+border-left: .01rem solid #DEDEDE;
 }
 .four p{
-    margin: 0;
+    margin:.17rem 0 .32rem .3rem;
+    font-size: .18rem;
+    color: #999999; 
 }
+.allVia{
+    display: flex;
+    align-items: center;
+}
+.allVia img{
+    margin:0 .14rem 0 .3rem; 
+    width: .13rem;
+    height: .13rem;
+}
+.allVia p{
+    margin: 0;
+    color: #26A26F;
+}
+
 .howStudy{
     margin-top: 1.51rem;
     font-size: .18rem;
     font-weight: bold;
 }
+/* 第二大排 */
+.cirIntro{
+    display: flex;
+    align-items: center;
+
+}
+.circle1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: .18rem;
+
+    border:.001rem  solid #999999;
+    width: .7rem;
+    height: .7rem;
+    border-radius: 50%;
+    background-color: #FFF;
+    box-shadow: 0 .01rem  .01rem .01rem #888888;
+}
+
+.number{
+    margin:0;
+    font-size: .18rem;
+    color: #29B078;
+}
+.intro{
+    margin: 0 .37rem 0 .17rem;
+    font-size: .14rem;
+    color: #999999;
+}
+.cirIntro img{
+margin-left: -.5rem;
+margin-right:.22rem; 
+    width: .28rem;
+    height: .26rem;
+
+}
+.row2{
+    margin-top: 1.92rem;
+}
+/* 第三大排 */
+
+.oneShow{
+   padding: .16rem .32rem .34rem;
+height: 5rem;
+    background-color: #FFF;
+    border: .01rem solid #DEDEDE;
+  
+}
+.oneShow img{
+    width: 1.08rem ;
+    height: 1.08rem ;
+}
+.name{
+    margin:.43rem 0 .28rem;
+    font-size: .18rem;
+}
+.duty{
+
+    font-size: .16rem;
+    color: #999999;
+}
+.fourPage{
+    display: flex;
+    justify-content: center;
+    margin-top: .25rem;
+}
+.circle3{
+    margin-left: .04rem;
+    width: .13rem;
+    height: .13rem;
+    border-radius: 50%;
+    background-color: #FFF;
+}
+.circle3:hover{
+    background-color: #29B078;
+}
+/* 第4排战略合作企业 */
