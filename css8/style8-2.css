@@ -108,6 +108,9 @@ padding: 0 3.63rem 0 3.59rem;
     color: #000;
 }
 .allFirm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding-top: .4rem;
     height: 7.08rem;
     border: .01rem solid #e6e6e6;
