@@ -1,0 +1,380 @@
+html{
+    font-size:312.5% ;
+}
+body {  
+    margin:0;
+
+}
+.first{
+    height: .39rem;
+    background-color:#FFF; 
+    padding: 0 3.6rem;
+
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.top p{
+    margin: 0;
+    font-size: .14rem;
+    color: #29B078;
+}
+.circle1{
+    margin-left: .19rem;
+    padding:.1rem;
+    border-radius: 50%;
+    width: .22rem;
+    height: .22rem; 
+    border: .01rem solid #29B078;
+}
+.icon1{
+    margin-left: .19rem;
+    width: .25rem;
+    height: .25rem;
+    background: url(img8/contact.png) 0 0/100%;
+
+}
+.icon2{
+    margin-left: .19rem;
+    width: .25rem;
+    height: .25rem;
+    background: url(img8/contact.png) 0 50%/100%;
+
+}
+.icon3{
+    margin-left: .19rem;
+    width: .25rem;
+    height: .25rem;
+    background: url(img8/contact.png) 0 100%/100%;
+
+}
+
+.chat{
+    display: flex;
+}
+.second{
+    width: 100%;
+    height: 1rem;
+    background-color: #29B078;
+    padding: 0 3.2rem 0 3.6rem;
+
+}
+.sign{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+
+}
+.sign img{
+    margin-top:.05rem; 
+    width: 1rem;
+    height: .49rem;
+}
+.fourPage{
+    display: flex;
+    padding: 0;
+}
+.fourPage a{
+    margin: 0;
+    padding:0 .34rem;
+    font-size: .16rem;
+    height: 1rem;
+    line-height: 1rem;
+    color: #FFF;
+
+}
+.fourPage a:hover {   
+    height: 1rem;
+    line-height: 1rem;
+    border-bottom: .04rem solid #FFF;
+    text-decoration:none;
+    color: #FFF;
+}
+/* 正文 */
+.synopsis{
+    padding: .31rem 3.6rem 2.3rem;
+    background: #fafafa;
+ }
+ .page{
+    display: flex;
+    padding-bottom: .32rem;
+    border-bottom: .01rem solid #D0D6D9;
+}
+.page p{
+    margin: 0; 
+    font-size: .16rem;
+}
+.pageFirm{
+    color: #29B078;
+}
+.side{
+    display: flex;
+    align-items: center;
+    height: 1rem;
+    border-bottom: .01rem solid #EDF1F2;
+}
+.side p{
+    margin: 0;
+    font-size: .14rem;
+    color: #999999;
+}
+.side a{
+    margin-left: .34rem;
+    font-size: .14rem;
+    color: #000;
+
+
+}
+.side a:hover{
+    text-decoration : none;
+    background-color: #29B078;
+    color: #FFF;
+}
+.oneSide{
+    height: 1.3rem;
+    line-height: 1.3rem;
+    border-bottom: .01rem solid #D0D6D9;
+}
+.oneSide p{
+    font-size: .16rem;
+
+}
+/* 一排仨 */
+
+.WEB{
+    margin-top: .47rem;
+
+    height:auto;
+    border: .01rem solid #FFFFFF;
+    box-shadow: 0 .01rem  .01rem .01rem #999999;
+background-color: #FFF; 
+}
+.via{
+    display: flex;
+    margin: .20rem .09rem .16rem .11rem;
+}
+.via img{
+    width: 2rem;
+    height:2rem;
+}
+.position{
+    margin: .14rem 0 .16rem .08rem;
+    font-size: .16rem;
+}
+.positionIntro{
+    margin: 0;
+    margin-left: .08rem;
+    font-size: .14rem;
+}
+/* 表格 */
+.tableOne{
+    display: flex;
+    height: .6rem;
+    border-top: .01rem solid #EDF1F2;
+  margin-bottom: 0px;
+}
+.tableLeft{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-left: .11rem;
+    font-size: .12rem;
+
+}
+.tableLeft p{
+    margin: 0 0 0 .11rem;
+    font-size: .12rem;
+    color: #999999;
+}
+.tableLeft img{
+    margin-left: .09rem;
+    width: .16rem;
+    height: .16rem;
+
+}
+.tableRight{
+    padding-left: .11rem;
+    flex: 1;
+    border-left: .01rem solid #EDF1F2;
+    display: flex;
+    align-items: center;
+    font-size: .12rem;
+}
+.tableRight p{
+    margin: 0 0 0 .11rem;
+    font-size: .12rem;
+    color: #999999;
+}
+.tableRight img{
+    margin-left: .09rem;
+
+    width: .16rem;
+    height: .16rem;
+}
+.tableTwo{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 1.5rem;
+    border-top: .01rem solid #EDF1F2;
+}
+.tableL{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tableL p{
+    margin: 0; 
+ font-size: .12rem;
+ color: #999999;
+
+}
+.tableR{
+    flex: 2;
+    border-left: .01rem solid #EDF1F2;
+
+}
+.tableR p{
+    margin: 0;
+    font-size: .12rem;
+
+}
+.oneYear{
+    padding-left: .11rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .11rem 0 .24rem;
+    height: .5rem;
+    border-bottom: .01rem solid #EDF1F2
+}
+.tableThree{
+    display: flex;
+    padding-left: .11rem;
+    height: .5rem;
+    line-height: .5rem;
+    font-size: .14rem;
+    border-top: .01rem solid #EDF1F2;
+
+}
+.tableThree p{
+    margin: 0;
+}
+.tableFour{
+    padding-left: .11rem;
+    height: .5rem;
+    line-height: .5rem;
+    border-top: .01rem solid #EDF1F2;
+}
+.tableFour p{
+    margin: 0;
+    font-size: .12rem;
+    color: #999999;
+}
+
+/* 页脚 */
+.footerTop{
+    padding: .37rem  3.6rem .65rem;
+    height: 2.3rem;
+    background-color: #26A26F;
+    border-bottom: .01rem solid #32C086;
+}
+
+
+.change{
+ margin-bottom: .92rem;
+    font-size: .16rem;
+    color: #FFF;
+}
+.about{
+    display: flex;
+}
+
+.about a{
+    margin:0 .25rem 0 0;
+    padding-bottom: .02rem;
+    font-size: .14rem;
+    color: #FFF;
+}
+.about a:hover{
+    color: #FFF;
+    text-decoration : none;
+    border-bottom: .01rem solid #FFF;
+}
+
+.us{
+    position: relative;
+}
+.us::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: .1rem;
+    width: .01rem;
+    height: .25rem;
+    background-color: #FFF;
+}
+.contact{
+    position: relative;
+}
+.contact::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: .1rem;
+    width: .02rem;
+    height: .25rem;
+    background-color: #FFF;
+}
+.change1{
+    margin-bottom: .3rem;
+       font-size: .16rem;
+       color: #FFF;
+   }
+.about1{
+    display: flex;
+}
+
+.about1 a{
+    margin:0 .25rem .23rem 0;
+    padding-bottom: .02rem;
+    font-size: .14rem;
+    color: #FFF;
+}
+.about1 a:hover{
+    color: #FFF;
+    text-decoration : none;
+    border-bottom: .01rem solid #FFF;
+}
+.QR{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.QR P{
+    margin-bottom: .07rem;
+    font-size: .16rem;
+    color: #FFF;
+
+}
+.QR img{
+    
+    width: 1.3rem;
+    height: 1.3rem;
+}
+.footerBottom{
+    height: .3rem;
+    line-height: .3rem;
+    background-color: #26A26F;
+}
+.footerBottom p{
+    font-size:.14rem;
+    color: #FFF;
+}

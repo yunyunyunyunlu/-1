@@ -5,14 +5,17 @@ body {
     margin:0;
 
 }
+.first{
+    height: .39rem;
+    background-color:#FFF; 
+    padding: 0 3.6rem;
+
+}
 .top{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
-    height: .39rem;
-padding: 0 3.63rem 0 3.59rem;
-    background-color:#FFF; 
+
 }
 .top p{
     margin: 0;
@@ -53,15 +56,29 @@ padding: 0 3.63rem 0 3.59rem;
     display: flex;
 }
 .second{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding-right: 3.61rem;
     width: 100%;
     height: 1rem;
     background-color: #29B078;
+    padding: 0 3.2rem 0 3.6rem;
+
 }
-.second p{
+.sign{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+
+}
+.sign img{
+    /* margin-top:.05rem;  */
+    width: 1rem;
+    height: .49rem;
+}
+.fourPage{
+    display: flex;
+    padding: 0;
+}
+.fourPage a{
     margin: 0;
     padding:0 .34rem;
     font-size: .16rem;
@@ -70,17 +87,14 @@ padding: 0 3.63rem 0 3.59rem;
     color: #FFF;
 
 }
-.second p:hover {   
+.fourPage a:hover {   
     height: 1rem;
     line-height: 1rem;
     border-bottom: .04rem solid #FFF;
+    text-decoration:none;
+    color: #FFF;
 }
 
-/* 轮播 */
-.thrCarousel{
-    width: 100%;
-    height: 6rem;
-}
 /* 灰色部分开始 */
 .details{
     padding-top: 1.77rem;
@@ -193,8 +207,8 @@ margin-right:.22rem;
     flex-direction: column;
     /* justify-content: center; */
    padding: .16rem .32rem .34rem;
-   width: 2.7rem;
-height: 3.69rem;
+   width: 100%;
+height: auto;
     background-color: #FFF;
     border: .01rem solid #DEDEDE;
   
@@ -306,7 +320,6 @@ height: 3.69rem;
     font-weight: bold;
 }
 /* 分10列开始 */
-/* 分5列开始 */
 .col-lg-2dot5 {
     position: relative;
     min-height: 1px;
@@ -330,7 +343,6 @@ height: 3.69rem;
     margin-left: 10%;
     }
 }
-    /* 分五列结束 */
 .oneLines{
 
    margin-bottom: .13rem;
@@ -354,45 +366,102 @@ height: 3.69rem;
     border-bottom: .03rem solid #26A26F;
 }
 
-/* 绿色 */
-
+/* 页脚 */
 .footerTop{
-    padding: .37rem 0 .65rem;
-    height: 1.7rem;
+    padding: .37rem  3.6rem .65rem;
+    height: 2.3rem;
     background-color: #26A26F;
     border-bottom: .01rem solid #32C086;
 }
-.footerBottom{
-    height: .3rem;
-    background-color: #26A26F;
-}
-.massage1{
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
-}
+
+
 .change{
- margin: 0;
+ margin-bottom: .92rem;
     font-size: .16rem;
     color: #FFF;
 }
 .about{
     display: flex;
 }
-.about p{
-    margin:0 .2rem 0 0;
+
+.about a{
+    margin:0 .25rem 0 0;
+    padding-bottom: .02rem;
     font-size: .14rem;
     color: #FFF;
 }
-.massage2{
+.about a:hover{
+    color: #FFF;
+    text-decoration : none;
+    border-bottom: .01rem solid #FFF;
+}
+
+.us{
+    position: relative;
+}
+.us::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: .1rem;
+    width: .01rem;
+    height: .25rem;
+    background-color: #FFF;
+}
+.contact{
+    position: relative;
+}
+.contact::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: .1rem;
+    width: .02rem;
+    height: .25rem;
+    background-color: #FFF;
+}
+.change1{
+    margin-bottom: .3rem;
+       font-size: .16rem;
+       color: #FFF;
+   }
+.about1{
+    display: flex;
+}
+
+.about1 a{
+    margin:0 .25rem .23rem 0;
+    padding-bottom: .02rem;
+    font-size: .14rem;
+    color: #FFF;
+}
+.about1 a:hover{
+    color: #FFF;
+    text-decoration : none;
+    border-bottom: .01rem solid #FFF;
+}
+.QR{
     display: flex;
     flex-direction: column;
-
+    align-items: center;
 }
-.massage2 p{
-    margin: 0 .34rem .15rem 0;
+.QR P{
+    margin-bottom: .07rem;
     font-size: .16rem;
     color: #FFF;
+
+}
+.QR img{
+    
+    width: 1.3rem;
+    height: 1.3rem;
+}
+.footerBottom{
+    height: .3rem;
+    line-height: .3rem;
+    background-color: #26A26F;
 }
 .footerBottom p{
     font-size:.14rem;
