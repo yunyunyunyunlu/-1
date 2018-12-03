@@ -17,34 +17,36 @@
         <div class="commodity ">
             <div class="coma">
                 <p>艾艾生鲜分拣类别：</p>
-                <a href="shanghu.html"> <p><strong>商户 /</strong></p></a>
-                <p><strong>菜品</strong></p>
+                <a href="shanghu.html"> <button class="cp"><strong>商户</strong></button></a>
+
+                <a href=""> <button class="sh"><strong>菜品</strong></button></a>
             </div>
-            <a href="">生成Excel / 打印</a>
+            <a href=""><button>生成Excel / 打印</button></a>
 
         </div>
-        <!-- 下拉菜单 -->
-        <div class="second">
-            <div class="sec">
-                <p>分组</p>
-                <p>状态</p>
-                <p>分类</p>
-            </div>
-            <div>
-                <form class="anniubiaodan">
-                    <input type="text" name="lastname" value="输入商品编号" class="biaodan">
-                    <input type="submit" value="搜索" class="anniu">
-                </form>
-            </div>
-        </div>
     </header>
+    <!-- 下拉菜单 -->
+    <div class="second">
+        <div class="sec">
+            <p>分组</p>
+            <p>状态</p>
+            <p>分类</p>
+        </div>
+        <div>
+            <form class="anniubiaodan">
+                <input type="text" name="lastname" value="输入商户编号/缩写" class="biaodan">
+                <input type="submit" value="搜索" class="anniu">
+            </form>
+        </div>
+    </div>
+
     <main>
         <div class="shucaifenlei">
             <div class="fenleianniu text-center">
                 <div class="yecai">
                     <p>叶菜类</p>
                     <div class="zhonglei">
-                        <a href="">1.白菜</a>
+                        <a href="" class="baicai">1.白菜</a>
                         <a href="">2.菠菜</a>
                         <a href="">3.油菜</a>
                         <a href="">1卷心菜</a>
@@ -164,7 +166,7 @@
                         </div>
                         <div>
                             <input type="text" name="lastname" value="30斤" class="biaodan">
-                            <p>个</p>
+            
                         </div>
                     </div>
                     <div class="xijie1  text-center">

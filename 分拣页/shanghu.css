@@ -168,6 +168,7 @@ feilei2{
     display: flex;
 }
 .xijie1{
+
     flex:1;
     flex-shrink: 0;
     width: 100%;
@@ -175,6 +176,9 @@ feilei2{
     margin:.2rem .2rem; 
     padding-top: .3rem;
     border: .01rem solid #3f803c;
+    background:url(./img1/icon1.png)  no-repeat 95% 95%;
+    background-size:1rem 1rem;
+  
     background-color: #fff;
     font-size: .16rem;
 }
