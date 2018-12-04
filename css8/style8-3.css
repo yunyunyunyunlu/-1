@@ -161,9 +161,10 @@ background-color: #FFF;
 position:absolute;
 top: 0;
 left: 0;
+margin: .47rem .3rem;
 padding: .43rem .24rem 0 .21rem;
-width: 100%;
-height: 100%;
+width: 92.5%;
+height: 93%;
 background-color: rgba(0,0,0,.8);
 z-index:1;
 }
