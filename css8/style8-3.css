@@ -398,6 +398,7 @@ z-index:1;
     background-color: #26A26F;
 }
 .footerBottom p{
+    margin: 0;
     font-size:.14rem;
     color: #FFF;
 }
