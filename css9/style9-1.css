@@ -10,8 +10,32 @@ body {
     .first{
         height: .39rem;
         background-color:#FFF; 
-        padding: 0 3.6rem;
+        padding: 0 .6rem;
     
+    }
+    .register{
+        display: flex;
+        justify-content: flex-end;;
+        margin: 0;
+
+    }
+    .register p{
+        margin-left: .2rem;
+        font-size: .16rem;
+        color: #000;
+    }
+    .log{
+        position: relative;
+    }
+    .log::after{
+        content: "";
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: .1rem;
+        width: .01rem;
+        height: .25rem;
+        background-color: #26A26F;;
     }
     .second{
         width: 100%;
@@ -19,9 +43,6 @@ body {
         
         background-color: #29B078;
         /* padding: 0 .2rem 0 .2rem; */
-    }
-    .sign{  
-
     }
     .sign img{
         margin-top: .3rem;
@@ -35,7 +56,7 @@ body {
         display: none;
 
     }
-    
+
     /* 灰色部分开始 */
 .details{
     padding-top: .5rem;
@@ -186,38 +207,40 @@ height: auto;
 }
 /* 第4排战略合作企业 */
 /* 分5列开始 */
-/* .col-lg-2dot4 {
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    }
-    .col-lg-2dot4 {
-    float: left;
-    }
-    .col-lg-2dot4 {
-    width: 20%;
-    }
-    .col-lg-pull-2dot4 {
-    right: 20%;
-    }
-    .col-lg-push-2dot4 {
-    left: 20%;
-    }
-    .col-lg-offset-2dot4 {
-    margin-left: 20%;
-    } */
 
+    .col-xs-2dot4 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        }
+        .col-xs-2dot4 {
+        float: left;
+        }
+        .col-xs-2dot4 {
+        width:100%;
+        }
+        .col-xs-pull-2dot4 {
+        right: 100%;
+        }
+        .col-xs-push-2dot4 {
+        left: 100%;
+        }
+        .col-xs-offset-2dot4 {
+        margin-left: 100%;
+        }
     /* 分五列结束 */
     .company{
         display: flex;
-        
         justify-content: center;
         align-items: center;
-       height: 1.76rem;
+       height: auto;
        border: .01rem solid #f6f6f6;
        box-shadow: 0 0 .1rem  #f1f1f1;
        background-color: #FFF;
+    }
+    .comBor1{
+        margin-bottom: .4rem;
     }
     .comBor1:hover{
         display: flex;
@@ -255,7 +278,6 @@ height: auto;
     }
     .iconCompany5{
         margin:0 auto;
-     
         width: 1.91em;
         height:1.08rem;
         background: url(img8/company.png) 0 100%/100%;
@@ -272,26 +294,26 @@ height: auto;
     font-weight: bold;
 }
 /* 分10列开始 */
-.col-lg-2dot5 {
+.col-xs-2dot5 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
     }
-    .col-lg-2dot5 {
+    .col-xs-2dot5 {
     float: left;
     }
-    .col-lg-2dot5 {
-    width: 10%;
+    .col-xs-2dot5 {
+    width: 33%;
     }
-    .col-lg-pull-2dot5 {
-    right: 10%;
+    .col-xs-pull-2dot5 {
+    right: 33%;
     }
-    .col-lg-push-2dot5 {
-    left: 10%;
+    .col-xs-push-2dot5 {
+    left:33%;
     }
-    .col-lg-offset-2dot5 {
-    margin-left: 10%;
+    .col-xs-offset-2dot5 {
+    margin-left: 33%;
     }
 
 .oneLines{
@@ -311,14 +333,14 @@ height: auto;
 
 /* 页脚 */
 .footerTop{
-    /* padding: .37rem  3.6rem .65rem; */
+    /*col-xs-2dot5 padding: .37rem  3.6rem .65rem; */
     height: auto;
     background-color: #26A26F;
     border-bottom: .01rem solid #32C086;
 }
 
 .change{
- margin-bottom: .92rem;
+ margin:.3rem 0 .5rem;
     font-size: .16rem;
     color: #FFF;
 }
@@ -387,9 +409,11 @@ height: auto;
 .QR{
     display: flex;
     flex-direction: column;
-    align-items: center;
+
 }
+
 .QR P{
+
     margin-bottom: .07rem;
     font-size: .16rem;
     color: #FFF;
@@ -397,6 +421,7 @@ height: auto;
 }
 .QR img{
     
+    margin-bottom: .2rem;
     width: 1.3rem;
     height: 1.3rem;
 }
@@ -424,6 +449,9 @@ height: auto;
     align-items: center;
     justify-content: space-between;
 
+}
+.register{
+    display: none;
 }
 .top p{
     margin: 0;

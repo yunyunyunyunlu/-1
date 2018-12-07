@@ -1,0 +1,560 @@
+html{
+    font-size:312.5% ;
+}
+body {  
+    margin:0;
+
+}
+@media screen and (max-width:960px){
+    .top,.top p,.icon1,.icon2,.icon3{display: none;
+    }
+    .first{
+        height: .39rem;
+        background-color:#FFF; 
+        padding: 0 .6rem;
+    
+    }
+    .register{
+        display: flex;
+        justify-content: flex-end;;
+        margin: 0;
+
+    }
+    .register p{
+        margin-left: .2rem;
+        font-size: .16rem;
+        color: #000;
+    }
+    .log{
+        position: relative;
+    }
+    .log::after{
+        content: "";
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: .1rem;
+        width: .01rem;
+        height: .25rem;
+        background-color: #26A26F;;
+    }
+    .second{
+        width: 100%;
+        height: 1rem;
+        
+        background-color: #29B078;
+
+    }
+    .sign img{
+        margin-top: .3rem;
+        width: 1rem;
+        height: .49rem;
+    }
+    .fourPage{
+        display: none;
+    }
+    .fourPage a{
+        display: none;
+
+    }
+    /* 头两行结束 */
+    
+    .handshake{
+        width: 100%;
+        height: 2.48rem;
+    }
+    /* 正文 */
+    .synopsis{
+       padding: .33rem .2rem 2.3rem;
+       background: #fafafa;
+    }
+    .page{
+        display: flex;
+    }
+    .page p{
+        margin-bottom:.29rem; 
+        font-size: .16rem;
+    }
+    .pageFirm{
+        color: #29B078;
+    }
+    .allFirm1{
+        height: .62rem;
+        line-height: .62rem;
+        border: .01rem solid #e6e6e6;
+        background-color: #FFF;
+        border-bottom: none;
+    
+    }
+    .allFirm1 p{
+        font-size: .22rem;
+        margin: 0;
+        color: #000;
+    }
+    .allFirm{
+        display: flex;
+        flex-direction: column;
+        padding-top: .4rem;
+        height: 7.08rem;
+        border: .01rem solid #e6e6e6;
+        background-color: #FFF;
+    }
+    .allFirm a{
+        position: relative;
+        font-size: .22rem;
+        color: #29B078;
+        margin-bottom: .36rem;
+    }
+    .allFirm a::before{
+        content: "";
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: -.3rem;
+        width: .16rem;
+        height: .16rem;
+        border-radius: 50%;
+        border: .02rem solid #F9A372;
+        background-color: #FFF;
+    }
+    .allFirm a:hover{
+        text-decoration: none;
+        color: #FF650E;
+    }
+    .allFirm a:hover::before{
+        background-color: #F9A372;
+    }
+    /* 右边内容 */
+    .potatoWeb{
+        margin-top: .65rem;
+        padding: .25rem .64rem .31rem .84rem;
+        border: .01rem solid #e6e6e6;
+        background-color: #FFF;
+        border-bottom: none;
+    
+    }
+    .potatoWeb p{
+        font-size: .14rem;
+        color: #999999;
+        margin: 0;
+    }
+    .potatoWeb img{
+        float: left;
+        width: 1.34rem;
+        height: 1.22rem;
+        margin-right: .25rem;
+    }
+    .potatoIntro{
+         padding: .38rem .64rem 1.84rem .84rem;  
+          border: .01rem solid #e6e6e6;
+          background-color: #FFF;
+    
+    }
+    .potatoIntro p{
+        /* 段落缩进 */
+        text-indent:.5rem;
+        font-size: .14rem;
+        color: #999999;
+        margin: 0 0 .38rem;
+    }
+    
+    /* 页脚 */
+    .footerTop{
+        padding: .37rem  .2rem .65rem;
+        height:auto;
+        background-color: #26A26F;
+        border-bottom: .01rem solid #32C086;
+    }
+    
+    
+    .change{
+     margin-bottom: .3rem;
+        font-size: .16rem;
+        color: #FFF;
+    }
+    .about{
+        display: flex;
+    }
+    
+    .about a{
+        margin:0 .25rem 0 0;
+        padding-bottom: .02rem;
+        font-size: .14rem;
+        color: #FFF;
+    }
+    .about a:hover{
+        color: #FFF;
+        text-decoration : none;
+        border-bottom: .01rem solid #FFF;
+    }
+    
+    .us{
+        position: relative;
+    }
+    .us::after{
+        content: "";
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: .1rem;
+        width: .01rem;
+        height: .25rem;
+        background-color: #FFF;
+    }
+    .contact{
+        position: relative;
+    }
+    .contact::after{
+        content: "";
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: .1rem;
+        width: .02rem;
+        height: .25rem;
+        background-color: #FFF;
+    }
+    .change1{
+        margin-bottom: .3rem;
+           font-size: .16rem;
+           color: #FFF;
+       }
+    .about1{
+        display: flex;
+    }
+    
+    .about1 a{
+        margin:0 .25rem .23rem 0;
+        padding-bottom: .02rem;
+        font-size: .14rem;
+        color: #FFF;
+    }
+    .about1 a:hover{
+        color: #FFF;
+        text-decoration : none;
+        border-bottom: .01rem solid #FFF;
+    }
+    .QR{
+        display: flex;
+        flex-direction: column;
+ 
+    }
+    .QR P{
+        margin-bottom: .07rem;
+        font-size: .16rem;
+        color: #FFF;
+    
+    }
+    .QR img{
+        
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+    .footerBottom{
+        height: .3rem;
+        line-height: .3rem;
+        background-color: #26A26F;
+    }
+    .footerBottom p{
+        margin: 0;
+        font-size:.14rem;
+        color: #FFF;
+    }
+}
+@media screen and (min-width:960px){
+    .register{
+        display: none;
+    }
+.first{
+    height: .39rem;
+    background-color:#FFF; 
+    padding: 0 3.6rem;
+
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.top p{
+    margin: 0;
+    font-size: .14rem;
+    color: #29B078;
+}
+.circle1{
+    margin-left: .19rem;
+    padding:.1rem;
+    border-radius: 50%;
+    width: .22rem;
+    height: .22rem; 
+    border: .01rem solid #29B078;
+}
+.icon1{
+    margin-left: .19rem;
+    width: .25rem;
+    height: .25rem;
+    background: url(img8/contact.png) 0 0/100%;
+
+}
+.icon2{
+    margin-left: .19rem;
+    width: .25rem;
+    height: .25rem;
+    background: url(img8/contact.png) 0 50%/100%;
+
+}
+.icon3{
+    margin-left: .19rem;
+    width: .25rem;
+    height: .25rem;
+    background: url(img8/contact.png) 0 100%/100%;
+
+}
+
+.chat{
+    display: flex;
+}
+.second{
+    width: 100%;
+    height: 1rem;
+    background-color: #29B078;
+    padding: 0 3.2rem 0 3.6rem;
+
+}
+.sign{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+
+}
+.sign img{
+    margin-top:.05rem; 
+    width: 1rem;
+    height: .49rem;
+}
+.fourPage{
+    display: flex;
+    padding: 0;
+}
+.fourPage a{
+    margin: 0;
+    padding:0 .34rem;
+    font-size: .16rem;
+    height: 1rem;
+    line-height: 1rem;
+    color: #FFF;
+
+}
+.fourPage a:hover {   
+    height: 1rem;
+    line-height: 1rem;
+    border-bottom: .04rem solid #FFF;
+    text-decoration:none;
+    color: #FFF;
+}
+/* 头两行结束 */
+
+.handshake{
+    width: 100%;
+    height: 2.48rem;
+}
+/* 正文 */
+.synopsis{
+   padding: .33rem 3.6rem 2.3rem;
+   background: #fafafa;
+}
+.page{
+    display: flex;
+}
+.page p{
+    margin-bottom:.29rem; 
+    font-size: .16rem;
+}
+.pageFirm{
+    color: #29B078;
+}
+.allFirm1{
+    height: .62rem;
+    line-height: .62rem;
+    border: .01rem solid #e6e6e6;
+    background-color: #FFF;
+    border-bottom: none;
+
+}
+.allFirm1 p{
+    font-size: .22rem;
+    margin: 0;
+    color: #000;
+}
+.allFirm{
+    display: flex;
+    flex-direction: column;
+    padding-top: .4rem;
+    height: 7.08rem;
+    border: .01rem solid #e6e6e6;
+    background-color: #FFF;
+}
+.allFirm a{
+    position: relative;
+    font-size: .22rem;
+    color: #29B078;
+    margin-bottom: .36rem;
+}
+.allFirm a::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: -.3rem;
+    width: .16rem;
+    height: .16rem;
+    border-radius: 50%;
+    border: .02rem solid #F9A372;
+    background-color: #FFF;
+}
+.allFirm a:hover{
+    text-decoration: none;
+    color: #FF650E;
+}
+.allFirm a:hover::before{
+    background-color: #F9A372;
+}
+/* 右边内容 */
+.potatoWeb{
+    margin-top: .65rem;
+    padding: .25rem .64rem .31rem .84rem;
+    border: .01rem solid #e6e6e6;
+    background-color: #FFF;
+    border-bottom: none;
+
+}
+.potatoWeb p{
+    font-size: .14rem;
+    color: #999999;
+    margin: 0;
+}
+.potatoWeb img{
+    float: left;
+    width: 1.34rem;
+    height: 1.22rem;
+    margin-right: .25rem;
+}
+.potatoIntro{
+     padding: .38rem .64rem 1.84rem .84rem;  
+      border: .01rem solid #e6e6e6;
+      background-color: #FFF;
+
+}
+.potatoIntro p{
+    /* 段落缩进 */
+    text-indent:.5rem;
+    font-size: .14rem;
+    color: #999999;
+    margin: 0 0 .38rem;
+}
+
+/* 页脚 */
+.footerTop{
+    padding: .37rem  3.6rem .65rem;
+    height: 2.3rem;
+    background-color: #26A26F;
+    border-bottom: .01rem solid #32C086;
+}
+
+
+.change{
+ margin-bottom: .92rem;
+    font-size: .16rem;
+    color: #FFF;
+}
+.about{
+    display: flex;
+}
+
+.about a{
+    margin:0 .25rem 0 0;
+    padding-bottom: .02rem;
+    font-size: .14rem;
+    color: #FFF;
+}
+.about a:hover{
+    color: #FFF;
+    text-decoration : none;
+    border-bottom: .01rem solid #FFF;
+}
+
+.us{
+    position: relative;
+}
+.us::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: .1rem;
+    width: .01rem;
+    height: .25rem;
+    background-color: #FFF;
+}
+.contact{
+    position: relative;
+}
+.contact::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: .1rem;
+    width: .02rem;
+    height: .25rem;
+    background-color: #FFF;
+}
+.change1{
+    margin-bottom: .3rem;
+       font-size: .16rem;
+       color: #FFF;
+   }
+.about1{
+    display: flex;
+}
+
+.about1 a{
+    margin:0 .25rem .23rem 0;
+    padding-bottom: .02rem;
+    font-size: .14rem;
+    color: #FFF;
+}
+.about1 a:hover{
+    color: #FFF;
+    text-decoration : none;
+    border-bottom: .01rem solid #FFF;
+}
+.QR{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.QR P{
+    margin-bottom: .07rem;
+    font-size: .16rem;
+    color: #FFF;
+
+}
+.QR img{
+    
+    width: 1.3rem;
+    height: 1.3rem;
+}
+.footerBottom{
+    height: .3rem;
+    line-height: .3rem;
+    background-color: #26A26F;
+}
+.footerBottom p{
+    margin: 0;
+    font-size:.14rem;
+    color: #FFF;
+}
+}
