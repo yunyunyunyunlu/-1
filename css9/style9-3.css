@@ -255,7 +255,7 @@ z-index:1;
 }
 .tableFour{
     padding-left: .11rem;
-    height: .5rem;
+    height: auto;
     line-height: .5rem;
     border-top: .01rem solid #EDF1F2;
 }
