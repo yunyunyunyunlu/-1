@@ -5,7 +5,7 @@ body {
     margin:0;
 
 }
-@media screen and (max-width:960px){
+@media screen and (max-width:768px){
     .top,.top p,.icon1,.icon2,.icon3{display: none;
     }
     .first{
@@ -362,7 +362,7 @@ color: #FFF;
         color: #FFF;
     }
 }
-@media screen and (min-width:960px){
+@media screen and (min-width:768px){
     .register{
         display: none;
     }
