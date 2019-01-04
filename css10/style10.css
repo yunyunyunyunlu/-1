@@ -2,6 +2,328 @@
 body {  
     margin:0;
 }
+@media screen and (max-width:768px){
+.theFrist{
+    width: 100%;
+    height: 20px;
+    background-color: #1D7AD9;
+}
+.theFrist p{
+    margin: 0;
+    font-size: 7px;
+    color: #FFF;
+}
+.call{
+    display: flex;
+    justify-content: space-between;
+}
+.login{
+    display: flex;
+}
+.login button{
+    background-color: #1D7AD9;
+    outline:none !important;
+    font-size: 8px;
+    color: #FFF;
+}
+.log{
+    height: 20px;
+    border: none;
+    border-left:1px solid #F9F9F9;
+    border-right:.1px solid #F9F9F9;
+}
+.in{ 
+    border: none;
+    border-right:1px solid #F9F9F9;
+
+}
+.in:hover{
+    background-color: #FFF;
+    color: #000;
+}
+.log:hover{
+    background-color: #FFF;
+    color: #000;
+}
+.theSecond{
+    height: 50px;
+    background-color: #F9F9F9;
+}
+.page{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+
+}
+.page button{
+    margin-left: 10px;
+    font-size: 8px;
+border-radius: 5px;
+    border: none;
+    outline:none!important;
+    box-shadow: 1px 1px 1px #888888;
+    background-color: #FFF;
+    height: 24px;
+    color: #000;
+}
+.page button:hover{
+    background-color: #1D7AD9;
+    color: #FFF;
+}
+main{
+    background-color: #FFF;
+}
+.flow{
+    height: 80px;
+
+}
+.oneFlow{
+    display: flex;
+    align-items: center;
+justify-content: flex-end;
+    height: 80px;
+}
+.made{
+    margin: 0;
+    font-size: 9px;
+    color: #CCCCCC;
+}
+.aRectangle{
+    width: 75px;
+    height: 3px;
+    line-height: 3px;
+    background-color: #CCCCCC;
+ z-index: 1;
+}
+.number{
+    margin-top: -12px;
+    margin-bottom:17px;
+    font-size: 8px;
+    color: #FFF;
+}
+.aCricle{
+    position: relative;
+    top:-5px;
+    left:31px; 
+
+    width:12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #CCCCCC;
+z-index: -1; 
+}
+.aRectangle:hover{
+    background-color: #FF7F02;
+}
+.aRectangle:hover .made{
+    color: #FF7F02;
+}
+.aRectangle:hover .aCricle{
+    background-color: #FF7F02;
+}
+.tip{
+    margin-bottom: 8px; 
+    padding-left: 3px;
+    height: 11px;
+    line-height: 11px;
+    font-size: 11px;
+    color: #333333;
+    border-left: 2px solid #1D7AD9;
+}
+.choice{
+    width: 100%;
+    /* height: 25px; */
+    border: 1px solid #F4F4F4;
+}
+.moder{
+    display: flex;
+    align-items: center;
+    height: 23px;
+    background-color: #F4F4F4;
+}
+.moder p{
+    margin: 0;
+    font-size: 9px;
+    color: #1D7AD9;
+}
+.oneIcon{
+    margin: 0 9px 0 9px;
+    width: 16px;
+    height:16px;
+    background: url(tbox.png) 0 0/100%;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 9px 0 10px;
+    height: 43px;
+    border-bottom: 1px solid #F4F4F4;
+    white-space:nowrap;
+}
+.threeRadio{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 43px;
+    white-space:nowrap;
+}
+.wordRadio{
+    margin: 0 9px 0 3px;
+    font-size: 9px;
+    color: #666666;
+}
+.check{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1px 0 9px;
+    width: 80px;
+    height: 19px;
+    line-height: 19px;
+    border: 1px solid #F4F4F4;
+ align-self: center;
+ background-color: #fff;
+ outline:none!important;
+}
+.check p{
+
+    margin: 0;
+    font-size: 7px;
+    color: #999999;
+
+}
+.toDowm{
+    position: relative;
+    width: 12px;
+    height: 14px;
+    background-color: #1D7AD9;
+    border-radius: 2px;
+}
+.toDowm::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 3px;
+    width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top:5px solid #fff;
+}
+/* 第二排 */
+.details1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:14px 9px 14px 11px;
+    height: 100%;
+    border-bottom: .01px solid #F4F4F4;
+    flex-wrap: wrap;
+
+}
+.threeRadio1{
+    display: flex;
+    align-items: center;
+    height: 25px;
+    white-space:nowrap;
+}
+.oneIcon1{
+    margin: 0 9px 0 9px;
+    width: 16px;
+    height:16px;
+    background: url(tbox.png) 0 50%/100%;
+}
+.theValue{
+    width: 35px;
+    height: 15px;
+    border: 1px solid #E8E8E8;
+}
+.wordRadio1{
+    margin: 0 0 0 5px;
+    font-size: 9px;
+    color: #666666;
+}
+.long{
+    margin: 0 4px 0 10px;
+    font-size: 8px;
+    color: #666666;
+}
+.mm{
+    margin: 0 0 0 2px;
+    font-size: 8px;
+    color: #666666;
+}
+.nextShep{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    width: 100%;
+    height: 143px;
+    border-top: 1px solid #E8E8E8;
+}
+.shep{
+    width: 90px;
+    height: 23px;
+    border: none;
+    border-radius: 2px;
+outline:none!important;
+    background-color: #E15053;
+    font-size: 8px;
+    color: #FFF;
+}
+/* 最后 */
+.theLast{
+    margin-top:27px; 
+    padding-top: 35px;
+    padding-bottom: 29px;
+    width: 100%;
+
+    background-color: #F9F9F9;
+}
+.theName{
+    font-size: 8px;
+    color: #999999;
+}
+.aboutUs{
+    display: flex;
+}
+.aboutUs p{
+    margin: 0 15px 13px 0;
+    font-size: 8px;
+    color: #999999;
+}
+.Telnumber{
+    display: flex;
+   
+}
+.Telnumber p{
+    margin: 0 9px 7px 0;
+    font-size: 8px;
+    color: #999999;
+}
+.Telnumber img{
+    width: 65px;
+    height: 65px;
+}
+.end{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    background-color: #1D7AD9;
+}
+.end p{
+    margin: 0;
+    margin-left: 20px;
+    font-size: 8px;
+    color: #FFF;
+}
+}
+@media screen and (min-width:768px){
 .theFrist{
     width: 100%;
     height: 20px;
@@ -187,6 +509,8 @@ z-index: -1;
     height: 19px;
     line-height: 19px;
     border: 1px solid #F4F4F4;
+    background-color: #fff;
+    outline:none!important;
 }
 .check p{
 
@@ -219,7 +543,7 @@ z-index: -1;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:14px 9px 14px 11px;
+    padding:14px 9px 14px 23px;
     height: 71px;
     border-bottom: .01px solid #F4F4F4;
 }
@@ -317,4 +641,5 @@ outline:none!important;
     margin-left: 20px;
     font-size: 8px;
     color: #FFF;
+}
 }

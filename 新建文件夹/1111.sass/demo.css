@@ -1,0 +1,9 @@
+.box {
+  color: red;
+}
+
+.box .img {
+  width: 100%;
+  display: block;
+}
+/*# sourceMappingURL=demo.css.map */
