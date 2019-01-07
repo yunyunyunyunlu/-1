@@ -38,10 +38,24 @@
                         <button type="button">标准箱</button>
                         <button type="button">品质保证</button>
                     </div>
+
+                    <!-- 缩小之后开始 -->
+                    <div class="col-md-12">
+                        <div class="act">
+                            <div class="pagemini"></div>
+                            <ul class="bfourPage text-center">
+                                <li><a href="">首 页</a></li>
+                                <li> <a href="">在线定制</a></li>
+                                <li><a href="">标准箱</a></li>
+                                <li> <a href="">品质保证</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
+        <!-- 缩小之后结束 -->
     </header>
     <main>
         <div class="container">
@@ -86,22 +100,33 @@
                         </div>
                         <div class="details">
                             <div class="threeRadio">
-                                <input type="radio" name="Sex" />
-                                <p class="wordRadio">对口箱</p>
-                                <input type="radio" name="Sex" /> <p class="wordRadio">飞机盒</p>
-                                <input type="radio" name="Sex" /> <p class="wordRadio">天地盖</p>
+
+                                <div class="oneRadio"> <input type="radio" name="Sex" id="wRadio" />
+                                   
+                                    <label for="wRadio" class="advice"></label>
+                                     <p class="wordRadio">对口箱</p>
+                                </div>
+                                <div class="oneRadio"><input type="radio" name="Sex" id="wRadio1" /> 
+                                    <label for="wRadio1" class="advice"></label>
+  
+                                     <p class="wordRadio">飞机盒</p>
+                                </div>
+                                <div class="oneRadio"> <input type="radio" name="Sex" id="wRadio2" />
+                                     <label for="wRadio2" class="advice"></label>
+                                      <p class="wordRadio">天地盖</p>
+                                </div>
                             </div>
                             <div class="dropdown">
-                            <button class="check" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                           
-                                <p>查看详情</p>
-                                <div class="toDowm"></div>
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                              </div>
+                                <button class="check" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                                    <p>查看详情</p>
+                                    <div class="toDowm"></div>
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another</a>
+                                    <a class="dropdown-item" href="#">Somethine</a>
+                                </div>
                             </div>
                         </div>
 
@@ -113,35 +138,52 @@
                         <div class="details1">
                             <div>
                                 <div class="threeRadio1">
-                                    <input type="radio" name="Sex1" />
-                                    <p class="wordRadio1">外径</p>
-                                    <p class="long">长</p>
-                                    <input type="text"  class="theValue">
-                                    <p class="mm">mm</p>
-                                    <p class="long">长</p>
-                                    <input type="text"  class="theValue">
-                                    <p class="mm">mm</p>
-                                    <p class="long">长</p>
-                                    <input type="text"  class="theValue">
-                                    <p class="mm">mm</p>
+                                    <div class="oneRadio">
+                                         <input type="radio" name="Sex1"  id="wRadio4"/>
+                                         <label for="wRadio4" class="advice"></label>
+                                        <p class="wordRadio1">外径</p>
+                                    </div>
+                                    <div class="oneRadio">
+                                        <p class="long">长</p>
+                                        <input type="text" class="theValue" placeholder="请输入数字"  onkeyup="value=value.replace(/[^1234567890-]+/g,'')">
+                                        <p class="mm">mm</p>
+                                    </div>
+                                    <div class="oneRadio">
+                                        <p class="long">长</p>
+                                        <input type="text" class="theValue" placeholder="请输入数字"  onkeyup="value=value.replace(/[^1234567890-]+/g,'')">
+                                        
+                                        <p class="mm">mm</p>
+                                    </div>
+                                    <div class="oneRadio">
+                                        <p class="long">长</p>
+                                        <input type="text" class="theValue" placeholder="请输入数字"  onkeyup="value=value.replace(/[^1234567890-]+/g,'')">
+                                        <p class="mm">mm</p>
+                                    </div>
                                 </div>
                                 <div class="threeRadio1">
-                                    <input type="radio" name="Sex1" />
-                                    <p class="wordRadio1">外径</p>
-                                    <p class="long">长</p>
-                                    <input type="text" name="firstname" class="theValue">
-                                    <p class="mm">mm</p>
-                                    <p class="long">长</p>
-                                    <input type="text" name="firstname" class="theValue">
-                                    <p class="mm">mm</p>
-                                    <p class="long">长</p>
-                                    <input type="text" name="firstname" class="theValue">
-                                    <p class="mm">mm</p>
+                                    <div class="oneRadio"> <input type="radio" name="Sex1" id="wRadio5"/>
+                                        <label for="wRadio5" class="advice"></label>
+                                        <p class="wordRadio1">外径</p>
+                                    </div>
+                                    <div class="oneRadio">
+                                        <p class="long">长</p>
+                                        <input type="text" class="theValue" placeholder="请输入数字"  onkeyup="value=value.replace(/[^1234567890-]+/g,'')">
+                                        <p class="mm">mm</p>
+                                    </div>
+                                    <div class="oneRadio">
+                                        <p class="long">长</p>
+                                        <input type="text" class="theValue" placeholder="请输入数字"  onkeyup="value=value.replace(/[^1234567890-]+/g,'')">
+                                        <p class="mm">mm</p>
+                                    </div>
+                                    <div class="oneRadio">
+                                        <p class="long">长</p>
+                                        <input type="text" class="theValue" placeholder="请输入数字"  onkeyup="value=value.replace(/[^1234567890-]+/g,'')">
+                                        <p class="mm">mm</p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="dropdown">
-                                <button class="check" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                               
+                                <button class="check" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <p>查看详情</p>
                                     <div class="toDowm"></div>
                                 </button>
@@ -149,8 +191,8 @@
                                     <a class="dropdown-item" href="#">Action</a>
                                     <a class="dropdown-item" href="#">Another action</a>
                                     <a class="dropdown-item" href="#">Something else here</a>
-                                  </div>
                                 </div>
+                            </div>
                         </div>
                         <!-- 第三排 -->
                         <div class="moder">
@@ -159,16 +201,31 @@
                         </div>
                         <div class="details1">
                             <div class="threeRadio">
-                                <input type="radio" name="Sex2" /><p class="wordRadio">三层A瓦优质</p>
-                                <input type="radio" name="Sex2" /> <p class="wordRadio">三层A瓦优质</p>
-                                <input type="radio" name="Sex2" /> <p class="wordRadio">三层A瓦优质</p>
-                                <input type="radio" name="Sex2" /> <p class="wordRadio">三层A瓦优质</p>
-                                <input type="radio" name="Sex2" /> <p class="wordRadio">三层A瓦优质</p>
+                                <div class="oneRadio"><input type="radio" name="Sex2" id="2"/>
+                                    <label for="2" class="advice"></label>
+                                    <p class="wordRadio">三层A瓦优质</p>
+                                </div>
+                                <div class="oneRadio"> <input type="radio" name="Sex2" id="1"/>
+                                     <label for="1" class="advice"></label>
+                                      <p class="wordRadio">三层A瓦优质</p>
+                                </div>
+                                <div class="oneRadio"> <input type="radio" name="Sex2" id="5"/>
+                                     <label for="5" class="advice"></label>
+                                      <p class="wordRadio">三层A瓦优质</p>
+                                </div>
+                                <div class="oneRadio"> <input type="radio" name="Sex2" id="3"/>
+                                     <label for="3" class="advice"></label>
+                                      <p class="wordRadio">三层A瓦优质</p>
+                                </div>
+                                <div class="oneRadio"> <input type="radio" name="Sex2" id="4"/> 
+                                    <label for="4" class="advice"></label>
+                                    <p class="wordRadio1">三层A瓦优质</p>
+                                </div>
                             </div>
                             <div class="dropdown">
                                 <div class="dropdown">
-                                    <button class="check" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                   
+                                    <button class="check" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
                                         <p>查看详情</p>
                                         <div class="toDowm"></div>
                                     </button>
@@ -176,63 +233,63 @@
                                         <a class="dropdown-item" href="#">Action</a>
                                         <a class="dropdown-item" href="#">Another action</a>
                                         <a class="dropdown-item" href="#">Something else here</a>
-                                      </div>
                                     </div>
-                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                                <li role="presentation">
-                                    <a role="menuitem" tabindex="-1" href="#">Java</a>
-                                </li>
-                                <li role="presentation">
-                                    <a role="menuitem" tabindex="-1" href="#">数据挖掘</a>
-                                </li>
-                                <li role="presentation">
-                                    <a role="menuitem" tabindex="-1" href="#">数据通信/网络</a>
-                                </li>
-                                <li role="presentation" class="divider"></li>
-                                <li role="presentation">
-                                    <a role="menuitem" tabindex="-1" href="#">分离的链接</a>
-                                </li>
-                            </ul>
+                                </div>
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                                    <li role="presentation">
+                                        <a role="menuitem" tabindex="-1" href="#">Java</a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a role="menuitem" tabindex="-1" href="#">数据挖掘</a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a role="menuitem" tabindex="-1" href="#">数据通信/网络</a>
+                                    </li>
+                                    <li role="presentation" class="divider"></li>
+                                    <li role="presentation">
+                                        <a role="menuitem" tabindex="-1" href="#">分离的链接</a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                         <div class="nextShep">
                             <button type="button" class="shep">下一步</button>
-                    
+
                         </div>
                     </div>
                 </div>
             </div>
     </main>
     <footer>
-  
-            <div class="theLast">
-                    <div class="container">
-                            <div class="row">
-                                <div class="col-md-4">
-                
-                <p class="theName"><strong>51包装网-纸箱包装首选服务平台</strong></p>
+
+        <div class="theLast">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+
+                        <p class="theName"><strong>51包装网-纸箱包装首选服务平台</strong></p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="aboutUs">
+                            <p>关于我们</p>
+                            <p>配送流程</p>
+                            <p>联系我们</p>
+                        </div>
+                        <div class="aboutUs">
+                            <p>下单指南</p>
+                            <p>媒体介绍</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 Telnumber">
+                        <div>
+                            <p>TEL:400-0000-000</p>
+                            <p>企业QQ：123456789</p>
+                            <p>微信号：XXXXXXXX</p>
+                        </div>
+                        <img src="weixin.png">
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4">
-            <div class="aboutUs">
-                <p>关于我们</p>
-                <p>配送流程</p>
-                <p>联系我们</p>
-            </div>
-            <div class="aboutUs">
-                <p>下单指南</p>
-                <p>媒体介绍</p>
-            </div>
-            </div>
-            <div class="col-md-4 Telnumber">
-            <div>
-                <p>TEL:400-0000-000</p>
-                <p>企业QQ：123456789</p>
-                <p>微信号：XXXXXXXX</p>
-            </div>
-            <img src="weixin.png">
-        </div>
-        </div>
-        </div>
         </div>
         <div class="end">
             <p>北京五一包装材料有限公司Copyright©2015</p>

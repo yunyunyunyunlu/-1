@@ -46,73 +46,114 @@ body {
     color: #000;
 }
 .theSecond{
-    height: 50px;
+
     background-color: #F9F9F9;
+    min-height: 50px;
+    max-height: 150px;
 }
 .page{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 100%;
-    height: 50px;
+    display: none;
+}
+
+/* 缩小之后开始 */
+.act{
+width: 100%;
 
 }
-.page button{
-    margin-left: 10px;
-    font-size: 8px;
-border-radius: 5px;
-    border: none;
-    outline:none!important;
-    box-shadow: 1px 1px 1px #888888;
-    background-color: #FFF;
-    height: 24px;
+.pagemini{
+    float:right;
+    position: relative;
+    margin-top: 20px;
+    width: 25px;
+    height: 18px;
+    line-height: 18px;
+    border-top: 2px solid #666666;
+    border-bottom: 2px solid #666;
+}
+.pagemini::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 2px;
+    background-color: #666;
+}
+
+
+.bfourPage{
+    display: none;
+    margin: 0 ; 
+    margin-left:-80px; 
+    margin-right: -40px;
+    padding-top: 50px;
+    list-style:none;
+    height: 170px;
+    background: #F9F9F9;
+
+
+}
+.bfourPage li{
+    height: 30px;
+    line-height: 30px;
+    font-size:15px;
+color: #000;
+}
+.bfourPage li a{
     color: #000;
+    text-decoration:none;
 }
-.page button:hover{
+.bfourPage li:hover{
     background-color: #1D7AD9;
-    color: #FFF;
 }
+.act:hover .bfourPage{
+    display: block;
+}
+
+/* 缩小之后结束 */
+    
 main{
     background-color: #FFF;
 }
-.flow{
-    height: 80px;
-
-}
 .oneFlow{
     display: flex;
+    flex-direction: column;
     align-items: center;
-justify-content: flex-end;
-    height: 80px;
+justify-content: center;
+margin:15px 0 30px; 
+    height:100%;
 }
 .made{
     margin: 0;
-    font-size: 9px;
+    font-size: 15px;
     color: #CCCCCC;
 }
 .aRectangle{
-    width: 75px;
-    height: 3px;
+
+    margin-bottom: 70px;
+    width: 100px;
+    height: 5px;
     line-height: 3px;
     background-color: #CCCCCC;
- z-index: 1;
+    z-index: 1;
+    border-radius: 2px;
 }
 .number{
-    margin-top: -12px;
-    margin-bottom:17px;
+    margin-top: -14px;
+    margin-bottom:25px;
     font-size: 8px;
     color: #FFF;
 }
 .aCricle{
     position: relative;
     top:-5px;
-    left:31px; 
+    left:42px; 
 
-    width:12px;
-    height: 12px;
+    width:15px;
+    height: 15px;
     border-radius: 50%;
     background-color: #CCCCCC;
-z-index: -1; 
+    z-index: -1; 
 }
 .aRectangle:hover{
     background-color: #FF7F02;
@@ -156,25 +197,51 @@ z-index: -1;
 }
 .details{
     display: flex;
-    align-items: center;
+
     justify-content: space-between;
-    padding:0 9px 0 10px;
-    height: 43px;
+    padding:10px 9px 0 10px;
+    min-height: 43px;
+    max-height: auto;
     border-bottom: 1px solid #F4F4F4;
     white-space:nowrap;
 }
 .threeRadio{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    height: 43px;
-    white-space:nowrap;
+    margin-bottom: 5px;
 }
+.oneRadio{
+display: flex;
+align-items: center;
+margin-bottom: 10px;
+}
+/* 改变单选样式 */
+input{
+    display: none;
+}
+/* 点击后样式 */
+input[type="radio"]:checked + .advice{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 5px solid #1D7AD9;
+}
+/* 点击前样式 */
+.advice{
+    position: relative;
+    top:3px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #999;
+    display: inline-block;
+}
+
 .wordRadio{
     margin: 0 9px 0 3px;
     font-size: 9px;
     color: #666666;
 }
+
 .check{
 
     display: flex;
@@ -218,18 +285,13 @@ z-index: -1;
 /* 第二排 */
 .details1{
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding:14px 9px 14px 11px;
-    height: 100%;
+    padding:10px 9px 0px 11px;
+    height: auto;
     border-bottom: .01px solid #F4F4F4;
-    flex-wrap: wrap;
-
 }
 .threeRadio1{
-    display: flex;
-    align-items: center;
-    height: 25px;
+    height: auto;
     white-space:nowrap;
 }
 .oneIcon1{
@@ -239,9 +301,10 @@ z-index: -1;
     background: url(tbox.png) 0 50%/100%;
 }
 .theValue{
-    width: 35px;
-    height: 15px;
+    width: 80px;
+    height: 30px;
     border: 1px solid #E8E8E8;
+    font-size: 10px;
 }
 .wordRadio1{
     margin: 0 0 0 5px;
@@ -398,6 +461,9 @@ border-radius: 5px;
     background-color: #1D7AD9;
     color: #FFF;
 }
+.act{
+    display: none;
+}
 main{
     background-color: #FFF;
 }
@@ -494,9 +560,36 @@ z-index: -1;
     align-items: center;
     height: 43px;
 }
+.oneRadio{
+    display: flex;
+    align-items: center;
+}
+/* 改变单选样式 */
+input{
+    display: none;
+}
+/* 点击后样式 */
+input[type="radio"]:checked + .advice{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 5px solid #1D7AD9;
+}
+/* 点击前样式 */
+.advice{
+    position: relative;
+    top:3px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #999;
+    display: inline-block;
+}
+
 .wordRadio{
     margin: 0 31px 0 9px;
-
+    white-space:nowrap;
     font-size: 9px;
     color: #666666;
 }
@@ -559,9 +652,10 @@ z-index: -1;
     background: url(tbox.png) 0 50%/100%;
 }
 .theValue{
-    width: 35px;
-    height: 15px;
+    width: 80px;
+    height: 20px;
     border: 1px solid #E8E8E8;
+    font-size: 10px;
 }
 .wordRadio1{
     margin: 0 0 0 9px;
