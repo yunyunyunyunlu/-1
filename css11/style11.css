@@ -1,0 +1,134 @@
+html {
+  font-size: 312.5%;
+}
+
+body {
+  margin: 0;
+  background-color: #eff0f4;
+}
+
+.top {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: .88rem;
+  background-color: #5FC0CD;
+}
+
+.top .login {
+  line-height: 50%;
+  font-size: .36rem;
+  text-align: center;
+  color: #FFF;
+}
+
+.top .register, .top .close {
+  position: absolute;
+  top: -.1rem;
+  right: .3rem;
+  float: right;
+  font-size: .32rem;
+  color: #fff;
+}
+
+.top .close {
+  left: .3rem;
+  float: none;
+}
+
+.account, .password {
+  position: fixed;
+  left: 0;
+  top: 1.04rem;
+  width: 100%;
+  height: 1rem;
+  background-color: #FFF;
+}
+
+.account img, .password img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  float: left;
+  margin-left: .44rem;
+  width: .27rem;
+  height: .41rem;
+}
+
+.account input, .password input {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 1.49rem;
+  border: 0px;
+  outline: none;
+  width: calc(100% - 1.49rem);
+  height: .3rem;
+  font-size: .32rem;
+}
+
+input::-webkit-input-placeholder {
+  font-size: .32rem;
+  color: #eff0f4;
+}
+
+.account::before, .password::before {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 1.15rem;
+  width: .02rem;
+  height: .51rem;
+  background: #eaedee;
+}
+
+.password {
+  top: 2.18rem;
+}
+
+.password img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  float: left;
+  margin-left: .44rem;
+  width: .27rem;
+  height: .41rem;
+}
+
+.password input {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 1.49rem;
+  border: 0px;
+  outline: none;
+  width: calc(100% - 1.49rem);
+  height: .3rem;
+  font-size: .32rem;
+}
+
+.login1 {
+  position: fixed;
+  left: 0;
+  top: 3.87rem;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 1rem;
+  font-size: .36rem;
+  text-align: center;
+  line-height: 80%;
+  background-color: #5FC0CD;
+  color: #FFF;
+}
+
+.forget {
+  position: absolute;
+  right: .32rem;
+  top: 5.05rem;
+  font-size: .32rem;
+  color: #5FC0CD;
+}

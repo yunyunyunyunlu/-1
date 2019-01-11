@@ -84,8 +84,8 @@ width: 100%;
 .bfourPage{
     display: none;
     margin: 0 ; 
-    margin-left:-80px; 
-    margin-right: -40px;
+    margin-left:-170px; 
+    margin-right: -130px;
     padding-top: 50px;
     list-style:none;
     height: 170px;
@@ -282,6 +282,18 @@ input[type="radio"]:checked + .advice{
     border-right: 3px solid transparent;
     border-top:5px solid #fff;
 }
+/* 下拉框 */
+.dropdown-menu{
+    background-color: #1D7AD9!important;
+    width: 3px!important;
+    margin: 0!important;
+}
+.dropdown-item{
+   width: 6px!important;
+    padding: 0!important;
+    font-size: 10px;
+    margin: 0!important;
+}
 /* 第二排 */
 .details1{
     display: flex;
@@ -384,6 +396,7 @@ outline:none!important;
     margin-left: 20px;
     font-size: 8px;
     color: #FFF;
+    white-space: pre-wrap;
 }
 }
 @media screen and (min-width:768px){
@@ -733,7 +746,8 @@ outline:none!important;
 .end p{
     margin: 0;
     margin-left: 20px;
-    font-size: 8px;
+    font-size: 3px;
     color: #FFF;
+    white-space: pre-wrap;
 }
 }

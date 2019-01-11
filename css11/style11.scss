@@ -1,0 +1,132 @@
+
+html{
+    font-size:312.5% ;
+}
+body 
+{  
+    margin:0;
+    background-color: #eff0f4;
+}
+$fonta:.32rem;
+$white:#FFF;
+$blue:#5FC0CD;
+@mixin iphimg{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    float: left;
+    margin-left:.44rem; 
+    width:.27rem;  
+    height:.41rem;
+}
+@mixin allinput{
+        position:absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left:1.49rem;
+        border: 0px;
+        outline: none;
+        width: calc(100% - 1.49rem);
+        height:.3rem;
+        font-size:.32rem;
+}
+@mixin befor {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left:1.15rem;
+    width: .02rem;
+    height: .51rem;
+    background: #eaedee;
+}
+.top
+{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:.88rem;
+    background-color: $blue;
+    .login
+    {
+    line-height: 50%; 
+    font-size:.36rem;
+    text-align:center;
+    color: $white;
+    }
+    .register
+    {  position:absolute;
+        top:-.1rem;
+        right:.3rem;
+        float:right;
+        font-size:.32rem;
+        color: #fff;
+    }
+   .close
+    {
+        @extend .register;
+        left: .3rem;
+        float: none;
+    }
+}
+.account
+{
+    position:fixed;
+    left:0;
+    top:1.04rem;
+    width:100%;
+    height:1rem;  
+    background-color: $white;
+
+img{
+    @include iphimg
+}
+input{
+    @include allinput
+}
+
+    }
+input::-webkit-input-placeholder 
+    {
+        font-size:.32rem;
+        color: #eff0f4;
+    }   
+.account::before{
+    @include befor
+}
+.password
+{
+    @extend .account;  
+    //引用包括伪类 
+        top:2.18rem;
+        img{
+            @include iphimg
+        }
+        input{
+            @include allinput()
+}
+}
+.login1
+{  
+    position:fixed;
+    left:0;
+    top:3.87rem;
+    border: none;
+    outline:none;
+    width: 100%;
+    height: 1rem;
+    font-size:.36rem;
+    text-align:center;
+    line-height:80%;
+    background-color: $blue;
+    color: $white;
+}
+.forget
+{
+    position:absolute;
+    right:.32rem;
+    top:5.05rem  ;
+    font-size:.32rem;
+    color: $blue;
+}
