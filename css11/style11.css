@@ -8,33 +8,28 @@ body {
 }
 
 .top {
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding: 0 .3rem;
   width: 100%;
   height: .88rem;
   background-color: #5FC0CD;
+  box-sizing: border-box;
 }
 
-.top .login {
-  line-height: 50%;
+.top .login, .top .register {
+  margin: 0;
   font-size: .36rem;
-  text-align: center;
   color: #FFF;
 }
 
-.top .register, .top .close {
-  position: absolute;
-  top: -.1rem;
-  right: .3rem;
-  float: right;
+.top .register {
   font-size: .32rem;
-  color: #fff;
-}
-
-.top .close {
-  left: .3rem;
-  float: none;
 }
 
 .account, .password {

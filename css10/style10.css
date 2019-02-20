@@ -284,15 +284,15 @@ input[type="radio"]:checked + .advice{
 }
 /* 下拉框 */
 .dropdown-menu{
-    background-color: #1D7AD9!important;
-    width: 3px!important;
-    margin: 0!important;
+    min-width: 80px!important;
+   
 }
 .dropdown-item{
-   width: 6px!important;
+   width:78px!important;
     padding: 0!important;
-    font-size: 10px;
+    font-size: 13px;
     margin: 0!important;
+    color: #1D7AD9;
 }
 /* 第二排 */
 .details1{
@@ -643,6 +643,17 @@ input[type="radio"]:checked + .advice{
     border-left: 3px solid transparent;
     border-right: 3px solid transparent;
     border-top:5px solid #fff;
+}
+.dropdown-menu{
+    min-width: 80px!important;
+   
+}
+.dropdown-item{
+   width:78px!important;
+    padding: 0!important;
+    font-size: 13px;
+    margin: 0!important;
+    color: #1D7AD9;
 }
 /* 第二排 */
 .details1{

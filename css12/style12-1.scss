@@ -92,9 +92,6 @@ main{
       }
 }  
 .skill{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
     margin: 0;
     padding: 0;
     background-color: $white;
@@ -103,8 +100,6 @@ main{
         font-size: .32rem;
       }
     .ski{
-   
-
             position: relative;
             display: flex;
             align-items: center;
@@ -112,10 +107,8 @@ main{
             padding-left: .59rem;
             font-size: .32rem;
             height: 1rem;
-           
     }
     .ski::before{
-      
             content: " ";
             position: absolute;
             top: 50%;
@@ -123,11 +116,9 @@ main{
             left: 1em;
             width: .04rem;
             height: .26rem;
-            background: #5FC0CD;
-          
+            background: $blue;
     }
     ul{
-
         padding-left: .35rem;
         .live{
             position: relative;
@@ -166,7 +157,34 @@ main{
         }  
         }
        }
-  }
-
-
+        }
       }
+      .mes{
+        position:fixed;
+        bottom:0px;
+        display: flex;
+        align-content: center;
+        width: 100%;
+        height: 1.3rem;
+        background-color: $white;
+
+        .massage{
+            width:50%;
+            border-radius: .1rem;  
+            outline: none;
+            height: .9rem;
+            font-size:.32rem;
+            text-align:center;
+            margin:.2rem;
+            color: $blue;
+            border: .02rem solid $blue;
+            background-color: $white; 
+        }
+        .tele{
+            
+            @extend .massage;
+            background-color: #5FC0CD; 
+            color: #fff;
+          }
+
+       }

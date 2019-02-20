@@ -7,7 +7,7 @@ body
     margin:0;
     background-color: #eff0f4;
 }
-$fonta:.32rem;
+
 $white:#FFF;
 $blue:#5FC0CD;
 @mixin iphimg{
@@ -42,33 +42,31 @@ $blue:#5FC0CD;
 }
 .top
 {
-    position:absolute;
+    position:fixed;
     left:0;
     top:0;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 0 .3rem;
     width:100%;
     height:.88rem;
     background-color: $blue;
+    box-sizing: border-box;
+
     .login
     {
-    line-height: 50%; 
+     margin: 0;
     font-size:.36rem;
-    text-align:center;
     color: $white;
     }
     .register
-    {  position:absolute;
-        top:-.1rem;
-        right:.3rem;
-        float:right;
-        font-size:.32rem;
-        color: #fff;
+    { 
+    @extend .login;
+    font-size: .32rem;
     }
-   .close
-    {
-        @extend .register;
-        left: .3rem;
-        float: none;
-    }
+   
 }
 .account
 {

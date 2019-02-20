@@ -99,9 +99,6 @@ main .user .info .adsbox p {
 }
 
 main .skill {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
   margin: 0;
   padding: 0;
   background-color: #FFF;
@@ -177,4 +174,32 @@ main .skill ul li p {
   margin-right: .54rem;
   position: relative;
   color: #999999;
+}
+
+.mes {
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  align-content: center;
+  width: 100%;
+  height: 1.3rem;
+  background-color: #FFF;
+}
+
+.mes .massage, .mes .tele {
+  width: 50%;
+  border-radius: .1rem;
+  outline: none;
+  height: .9rem;
+  font-size: .32rem;
+  text-align: center;
+  margin: .2rem;
+  color: #5FC0CD;
+  border: 0.02rem solid #5FC0CD;
+  background-color: #FFF;
+}
+
+.mes .tele {
+  background-color: #5FC0CD;
+  color: #fff;
 }
