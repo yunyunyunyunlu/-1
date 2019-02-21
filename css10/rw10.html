@@ -101,32 +101,28 @@
                         <div class="details">
                             <div class="threeRadio">
 
-                                <div class="oneRadio"> <input type="radio" name="Sex" id="wRadio" />
+                                <div class="oneRadio"> <input type="radio" name="Sex" id="wRadio" class="put"/>
                                    
                                     <label for="wRadio" class="advice"></label>
                                      <p class="wordRadio">对口箱</p>
                                 </div>
-                                <div class="oneRadio"><input type="radio" name="Sex" id="wRadio1" /> 
+                                <div class="oneRadio"><input type="radio" name="Sex" id="wRadio1"  class="put"/> 
                                     <label for="wRadio1" class="advice"></label>
   
                                      <p class="wordRadio">飞机盒</p>
                                 </div>
-                                <div class="oneRadio"> <input type="radio" name="Sex" id="wRadio2" />
+                                <div class="oneRadio"> <input type="radio" name="Sex" id="wRadio2"  class="put"/>
                                      <label for="wRadio2" class="advice"></label>
                                       <p class="wordRadio">天地盖</p>
                                 </div>
                             </div>
-                            <div class="dropdown">
-                                <button class="check" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-
-                                    <p>查看详情</p>
-                                    <div class="toDowm"></div>
-                                </button>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="width: 10px">
-                                    <a class="dropdown-item" href="#" style="margin: 0px">Action</a>
-                                    <a class="dropdown-item" href="#" style="margin: 0px">Another</a>
-                                    <a class="dropdown-item" href="#" style="margin: 0px">Somethine</a>
-                                </div>
+                            <div class="dropdown">   
+                                <select class="custom-select">
+                                    <option selected class="dropdown-item">查看详情</option>
+                                    <option value="1" class="dropdown-item">One</option>
+                                    <option value="2" class="dropdown-item">Two</option>
+                                    <option value="3" class="dropdown-item">Three</option>
+                                  </select>
                             </div>
                         </div>
 
@@ -139,7 +135,7 @@
                             <div>
                                 <div class="threeRadio1">
                                     <div class="oneRadio">
-                                         <input type="radio" name="Sex1"  id="wRadio4"/>
+                                         <input type="radio" name="Sex1"  id="wRadio4"  class="put"/>
                                          <label for="wRadio4" class="advice"></label>
                                         <p class="wordRadio1">外径</p>
                                     </div>
@@ -149,19 +145,19 @@
                                         <p class="mm">mm</p>
                                     </div>
                                     <div class="oneRadio">
-                                        <p class="long">长</p>
+                                        <p class="long">宽</p>
                                         <input type="text" class="theValue" placeholder="请输入数字"  onkeyup="value=value.replace(/[^1234567890-]+/g,'')">
                                         
                                         <p class="mm">mm</p>
                                     </div>
                                     <div class="oneRadio">
-                                        <p class="long">长</p>
+                                        <p class="long">高</p>
                                         <input type="text" class="theValue" placeholder="请输入数字"  onkeyup="value=value.replace(/[^1234567890-]+/g,'')">
                                         <p class="mm">mm</p>
                                     </div>
                                 </div>
                                 <div class="threeRadio1">
-                                    <div class="oneRadio"> <input type="radio" name="Sex1" id="wRadio5"/>
+                                    <div class="oneRadio"> <input type="radio" name="Sex1" id="wRadio5"  class="put"/>
                                         <label for="wRadio5" class="advice"></label>
                                         <p class="wordRadio1">外径</p>
                                     </div>
@@ -171,27 +167,24 @@
                                         <p class="mm">mm</p>
                                     </div>
                                     <div class="oneRadio">
-                                        <p class="long">长</p>
+                                        <p class="long">宽</p>
                                         <input type="text" class="theValue" placeholder="请输入数字"  onkeyup="value=value.replace(/[^1234567890-]+/g,'')">
                                         <p class="mm">mm</p>
                                     </div>
                                     <div class="oneRadio">
-                                        <p class="long">长</p>
+                                        <p class="long">高</p>
                                         <input type="text" class="theValue" placeholder="请输入数字"  onkeyup="value=value.replace(/[^1234567890-]+/g,'')">
                                         <p class="mm">mm</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="dropdown">
-                                <button class="check" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <p>查看详情</p>
-                                    <div class="toDowm"></div>
-                                </button>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Anothe</a>
-                                    <a class="dropdown-item" href="#">Something</a>
-                                </div>
+                            <div class="dropdown">   
+                                <select class="custom-select">
+                                    <option selected class="dropdown-item">查看详情</option>
+                                    <option value="1" class="dropdown-item">One</option>
+                                    <option value="2" class="dropdown-item">Two</option>
+                                    <option value="3" class="dropdown-item">Three</option>
+                                  </select>
                             </div>
                         </div>
                         <!-- 第三排 -->
@@ -201,40 +194,35 @@
                         </div>
                         <div class="details1">
                             <div class="threeRadio">
-                                <div class="oneRadio"><input type="radio" name="Sex2" id="2"/>
+                                <div class="oneRadio"><input type="radio"  name="Sex2" id="2" class="put"/>
                                     <label for="2" class="advice"></label>
                                     <p class="wordRadio">三层A瓦优质</p>
                                 </div>
-                                <div class="oneRadio"> <input type="radio" name="Sex2" id="1"/>
+                                <div class="oneRadio"> <input type="radio" name="Sex2" id="1" class="put"/>
                                      <label for="1" class="advice"></label>
                                       <p class="wordRadio">三层A瓦优质</p>
                                 </div>
-                                <div class="oneRadio"> <input type="radio" name="Sex2" id="5"/>
+                                <div class="oneRadio"> <input type="radio" name="Sex2" id="5" class="put"/>
                                      <label for="5" class="advice"></label>
                                       <p class="wordRadio">三层A瓦优质</p>
                                 </div>
-                                <div class="oneRadio"> <input type="radio" name="Sex2" id="3"/>
+                                <div class="oneRadio"> <input type="radio" name="Sex2" id="3" class="put"/>
                                      <label for="3" class="advice"></label>
                                       <p class="wordRadio">三层A瓦优质</p>
                                 </div>
-                                <div class="oneRadio"> <input type="radio" name="Sex2" id="4"/> 
+                                <div class="oneRadio"> <input type="radio" name="Sex2" id="4" class="put"/> 
                                     <label for="4" class="advice"></label>
                                     <p class="wordRadio1">三层A瓦优质</p>
                                 </div>
                             </div>
-                            <div class="dropdown">
-                                <div class="dropdown">
-                                    <button class="check" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-
-                                        <p>查看详情</p>
-                                        <div class="toDowm"></div>
-                                    </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#">Another</a>
-                                        <a class="dropdown-item" href="#">Something</a>
-                                    </div>
-                                </div>
+                            <div class="dropdown">   
+                                <select class="custom-select">
+                                    <option selected class="dropdown-item">查看详情</option>
+                                    <option value="1" class="dropdown-item">One</option>
+                                    <option value="2" class="dropdown-item">Two</option>
+                                    <option value="3" class="dropdown-item">Three</option>
+                                  </select>
+                            </div>
                                 <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
                                     <li role="presentation">
                                         <a role="menuitem" tabindex="-1" href="#">Java</a>

@@ -214,7 +214,7 @@ align-items: center;
 margin-bottom: 10px;
 }
 /* 改变单选样式 */
-input{
+.put{
     display: none;
 }
 /* 点击后样式 */
@@ -269,6 +269,7 @@ input[type="radio"]:checked + .advice{
     height: 14px;
     background-color: #1D7AD9;
     border-radius: 2px;
+    z-index: 999;
 }
 .toDowm::after{
     content: "";
@@ -283,10 +284,23 @@ input[type="radio"]:checked + .advice{
     border-top:5px solid #fff;
 }
 /* 下拉框 */
-.dropdown-menu{
-    min-width: 80px!important;
-   
+
+
+
+.custom-select{
+    position: relative!important;
+    appearance:none!important;
+    -moz-appearance:none!important;
+    -webkit-appearance:none!important;
+    background: url("down.png")  no-repeat scroll right transparent!important;
+    background-size:14px 16px!important;
+    background-position: 95% 50%!important;
+    width: 88px!important;
+    height: 22px!important;
+    font-size: 10px!important;
+    padding: 0 5px!important;
 }
+
 .dropdown-item{
    width:78px!important;
     padding: 0!important;
@@ -578,9 +592,10 @@ z-index: -1;
     align-items: center;
 }
 /* 改变单选样式 */
-input{
+.put{
     display: none;
 }
+
 /* 点击后样式 */
 input[type="radio"]:checked + .advice{
     width: 13px;
@@ -625,29 +640,20 @@ input[type="radio"]:checked + .advice{
     color: #999999;
 
 }
-.toDowm{
-    position: relative;
-    width: 12px;
-    height: 14px;
-    background-color: #1D7AD9;
-    border-radius: 2px;
+.custom-select{
+    position: relative!important;
+    appearance:none!important;
+    -moz-appearance:none!important;
+    -webkit-appearance:none!important;
+    background: url("down.png")  no-repeat scroll right transparent!important;
+    background-size:14px 16px!important;
+    background-position: 95% 50%!important;
+    width: 88px!important;
+    height: 22px!important;
+    font-size: 10px!important;
+    padding: 0 5px!important;
 }
-.toDowm::after{
-    content: "";
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 3px;
-    width: 0;
-    height: 0;
-    border-left: 3px solid transparent;
-    border-right: 3px solid transparent;
-    border-top:5px solid #fff;
-}
-.dropdown-menu{
-    min-width: 80px!important;
-   
-}
+
 .dropdown-item{
    width:78px!important;
     padding: 0!important;
