@@ -1,0 +1,228 @@
+.home_banner{
+    ul{
+        li{
+            a{
+                img{
+                    width: 100%!important;
+                }
+            }
+        }
+    }
+}
+$gren:#56b82e;
+$white:#ffffff;
+$grey:#f5f5f5;
+body{
+    background-color: $grey;
+}
+.top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1em;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(86,184,46,.5);
+    box-sizing: border-box;
+   
+
+    .sidebar{
+     
+        border-top: 2px solid #FFF;
+        border-bottom: 2px solid #FFF;
+        width: 20px;
+        height: 2px;
+        color: #FFF;
+        padding: 5px 0;
+        background-color: currentColor;
+        background-clip: content-box;
+    }
+    form{
+
+        input{
+            border: 2px solid $gren;
+            border-radius: 5px;
+            outline: none;
+            background: #F9F0DA;
+            color: #9E9C9C;
+        }
+        button {
+            position: absolute; 
+            top: 0;
+            right: 0px;
+            width: 23px;
+            height: 23px;
+            border: none;
+            background: $gren;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+        }
+        button:before {
+            content: "\f002";
+            font-family: FontAwesome;
+            font-size: 16px;
+            color: #F9F0DA;
+          }  
+    }
+    a{
+       
+        img{
+            width: 25px;
+            height: auto;
+        }
+    }
+}
+main{
+    padding: 5px 15px 0;
+    .word{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        .name1{
+            font-size: 10px;
+            font-weight:bold;
+        }
+        p{
+            font-size: 10px;
+        }
+        img{
+            width: 10px;
+            height: 5px;
+            margin-left:10px; 
+        }
+    }
+
+    .iconSet{
+        display: flex;
+        justify-content: space-between;
+        
+        margin-top:10px;
+        a{
+            text-decoration:none;
+
+      
+        img{
+            width:4em;
+            height:4em;
+        }
+        p{
+            white-space:pre;
+            margin-top: 5px;
+            text-align:center;
+        }
+    }
+}
+   .weekSale{
+
+       margin-top: 10px;
+
+       img{
+           margin-top:5px;
+           width: 100%;
+           height: auto;
+           z-index: -11111;
+       }
+       }
+       .oneRow{
+        position: relative;
+        top:-50px;
+        left: 10px;
+           display: flex;
+           box-shadow: 3px 3px 2px #888888;
+           width: 95%;
+      
+           overflow: auto;
+           background-color: $grey;
+   
+         
+           a{
+           
+               .list1{
+    
+            border-right: 1px solid #eed654;
+            width:7em;
+            height: 7em;
+            box-sizing: border-box;
+
+            .explain{
+                position: absolute;
+                bottom: 0;
+                width: 7em;
+                height: 20px;
+                background-color: rgba(86,184,46,.5);
+            p{
+                margin-top: 5px;
+                font-weight:bold;
+                color: #1f1f1f;
+                text-align: center;
+
+            }
+         
+            }
+           }
+ 
+       }
+    }
+
+}
+.rukou{
+    margin-top: -35px;
+    margin-bottom: 50px;
+    img{
+        width: 100%;
+    }
+}
+.footer1{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $grey;
+    padding: 0 15px;
+    box-sizing: border-box;
+
+    img{
+        width: 35px;
+        height: 30px;
+    }
+    button{
+        background-color: $grey;
+        border: none;
+        outline:none;
+        .iconHome4{
+            width:25px;
+            height: 24px;
+            background: url(img/downicon.png) 0 0/100%;
+        }
+        .iconHome3{
+            width:25px;
+            height: 23px;
+            background: url(img/downicon.png) 0 32%/100%;
+        }
+        .iconHome2{
+            width:25px;
+            height: 24px;
+            background: url(img/downicon.png) 0 66%/100%;
+        }
+        .iconHome1{
+            width:25px;
+            height: 22px;
+            background: url(img/downicon1.png) 0 100%/100%;
+        }
+        p{
+            font-size: 10px;
+
+        }
+        .thispage{
+            color: #128f43;
+        }
+    }
+}

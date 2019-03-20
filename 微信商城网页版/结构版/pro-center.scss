@@ -1,0 +1,282 @@
+
+$gren:#56b82e;
+$white:#ffffff;
+$grey:#f5f5f5;
+$icongren:#128f43;
+$orange:#f6581b;
+$wordGrey:#8d8d8b;
+@mixin oneRow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:10px; 
+    padding: 0 15px;
+    width: 100%;
+    height: 40px;
+    background-color: $white;
+    box-sizing: border-box;
+}
+body {  
+    margin:0;
+    background-color: $grey;
+}
+.top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1em;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(86,184,46,.5);
+    box-sizing: border-box;
+   
+    .return{
+        margin-top:10px; 
+        width:10px ;
+        height: 10px;
+        border: $white;
+        border-style:solid;
+        border-width:0 0 3px 3px ;
+        transform: rotate(45deg); 
+          transform-origin:100% 50%; 
+    }
+    .sidebar{
+        margin-left: -20px;
+        border-top: 2px solid #FFF;
+        border-bottom: 2px solid #FFF;
+        width: 20px;
+        height: 2px;
+        color: #FFF;
+        padding: 5px 0;
+        background-color: currentColor;
+        background-clip: content-box;
+    }
+    form{
+
+        input{
+            border: 2px solid $gren;
+            border-radius: 5px;
+            outline: none;
+            background: #F9F0DA;
+            color: #9E9C9C;
+        }
+        button {
+            position: absolute; 
+            top: 0;
+            right: 0px;
+            width: 23px;
+            height: 23px;
+            border: none;
+            background: $gren;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+        }
+        button:before {
+            content: "\f002";
+            font-family: FontAwesome;
+            font-size: 16px;
+            color: #F9F0DA;
+          }  
+    }
+    a{
+       
+        img{
+            width: 25px;
+            height: auto;
+        }
+    }
+}
+main{
+    padding-top: 5px;
+    margin-bottom: 55px;
+    .price{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        padding: 0 15px;
+        .aPrice{
+            display: flex;
+            align-items: flex-end;
+        p{
+            color: $orange;
+            font-weight: bolder;
+            font-size: 17px;
+        }
+        div{
+            margin-left: 10px;
+            color: $orange;
+            font-size: 10px;
+        }
+    }
+        img{
+            width: 20px;
+            
+        }
+    }
+    .solgan{
+        display: flex;
+        margin-top: 10px;
+        padding: 0 15px;
+        .iiName{
+            margin-right: 10px;
+            border-radius:15px; 
+            width: 50px;
+            height: 13px;
+            line-height: 13px;
+            background-color: $icongren;
+            p{
+                text-align: center;
+                font-size: 10px;
+               
+                color: $white;
+            }
+        }
+        p{
+        
+            font-size: 10px;
+            color: $wordGrey;
+            align-self: end;
+        }
+    }
+    .volume{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        padding: 0 15px;
+        p{
+            font-size: 10px;
+            color: $wordGrey;
+        }
+    }
+    .size{
+        @include oneRow();
+      
+        p{
+            font-size: 10px;
+            color: $wordGrey;
+        }
+      
+        .cohSize{
+           span{
+            background-color: $white;
+            width: 22px;
+            height:40px;
+            line-height: 40px;
+            img{
+                width:20px;
+            }
+        }
+            input{
+                padding: 0 3px;
+                width: 60px;
+                height: 40px;
+            }
+        }
+    }
+    .yunfei{
+        @include oneRow();
+      
+        display: flex;
+        justify-content: flex-start;
+        img{
+            margin:0 5px;
+            width: 20px;
+
+        }
+        p{
+            font-size: 10px;
+            color: $wordGrey;
+        }
+        .p1{
+            color: #000;
+        }
+        
+    }
+    .guanggao{
+        @include oneRow();
+        height:30px;
+        justify-content: flex-start;
+        white-space:nowrap; 
+        img{
+            margin-right: 5px;
+            width: 10px;
+        }
+        p{
+            margin-right: 30px;
+            font-size: 10px;
+        }
+    }
+    .fangxingou{
+        @include oneRow();
+        margin: 0;
+        background-color: $gren;
+        justify-content: center;
+        border-radius: 5px;
+
+        img{
+            margin: 0 10px;
+            width: 35px;
+        }
+    }
+}
+.footer1{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: $grey;
+
+    box-sizing: border-box;
+    .twoButton{
+        flex:1;
+        display: flex;
+        padding: 15px;
+        align-items: center;
+        justify-content: space-around;
+        button{
+            border: none;
+            outline:none;
+            background-color: $grey;
+            img{
+                width:20px;
+                height: 15px;
+                margin-bottom: 3px;
+            }
+            p{
+                font-size: 10px;
+            }
+        }
+    }
+    .nowBuy{
+        flex: 2;
+        display: flex;
+   align-items: center;
+        background-color: $grey;
+
+
+   
+            .join{
+                width: 95%;
+          button{
+            width: 100%;
+            height:30px;
+            border: none;
+            outline:none;
+            color: $white;
+            background-color: $orange;
+            border-radius: 10px;
+          }
+        }
+
+    }
+
+
+    }
+    
+    

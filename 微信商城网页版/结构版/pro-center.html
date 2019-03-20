@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="Keywords" content="shouye" />
+    <meta name="Description" content="shouye" />
+    <title>商品详情</title>
+    <link rel="stylesheet" type="text/css" href="pro-center.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<header>
+    <!-- 幻灯片 -->
+        <div class="home_banner">
+            <ul>
+                <li>
+                    <a href=""><img src="img/pro-cen/huolongguo1.png" alt="e"></a>
+                </li>
+                <li>
+                    <a href=""><img src="img/pro-cen/huolongguo2.png" alt="e"></a>
+                </li>
+            </ul>
+        </div>
+<!-- 搜索栏 -->
+        <div class="top">
+            <div class="return"></div>
+            <div class="sidebar"></div>
+            <form>
+                <input type="text" placeholder="新鲜在这">
+         
+            </form>
+            <a href=""><img src="img/pro-cen/shopcar.png"></a>
+        </div>
+
+    </header>
+    <main>
+<!-- 名称价格 -->
+        <div class="price">
+            <div class="aPrice">
+            
+            <p>火龙果</p>
+            <div>￥实时价格</div>
+        </div>
+            <img src="img/pro-cen/collect.png">
+        </div>
+        <!-- 公司名字 -->
+        <div class="solgan">
+        <div class="iiName"><p>艾艾生鲜</p></div>
+        <p>自有物流 市内配送</p>
+        </div>
+        <!-- 库存销量 -->
+        <div class="volume">
+            <p>库存：10000kg</p>
+            <p>月销：6524kg</p>
+        </div>
+<!-- 规格 -->
+        <div class="size">
+          <div>
+            <p>规格：</p>
+            <p>2斤/份</p>
+        </div>
+            <div class="goods_num_adjust cohSize">
+                    
+                            <span id="buyReduceButton">
+                                <img src="img/pro-cen/jian.png">
+                            </span>
+                            <input type='text' id="buyNums" onblur="checkBuyNums();" value="1">
+                            <span id="buyAddButton">  <img src="img/pro-cen/jia.png"></span>
+            </div>
+        </div>
+       <div class="yunfei">
+            <p>运费：</p>
+            <img src="img/pro-cen/car.png">
+            <p class="p1">自有物流 全市免费配送</p>
+       </div>
+       <div class="yunfei">
+            <p>赔付：</p>
+            <img src="img/pro-cen/huan.png">
+            <p class="p1">坏烂包换，换回销毁，不二次销售</p>
+       </div>
+       <div class="guanggao">
+        <img src="img/pro-cen/y.png">
+        <p>工厂直送&售后</p>
+        <img src="img/pro-cen/y.png">
+        <p>包退换</p>
+        <img src="img/pro-cen/y.png">
+        <p>鞍山自有品牌</p>
+       </div>
+       <div class="fangxingou">
+           <img src="img/pro-cen/fangxingou.png">
+           <img src="img/pro-cen/icon.png">
+           <img src="img/pro-cen/xiangshenghuo.png">
+       </div>
+    </main>
+   
+        <div class="footer1">
+            <div class="twoButton">
+            <a href="">
+                <button type="button">
+               <img src="img/pro-cen/home.png">
+                <p>首页</p>
+            </button>
+            </a>
+            <a href="">
+                    <button type="button">
+                            <img src="img/pro-cen/shopcar1.png">
+                    <p>订单</p>
+                </button>
+                </a>
+            </div>
+            <div class="nowBuy">
+               
+                    <a href=""  class="join">
+                            <button type="button">
+                       
+                            <p>加入订单</p>
+                        </button>
+                        </a>
+ 
+                    </div>
+        </div>
+    <script type="text/javascript" src="javascript/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="javascript/jquery.slider.js"></script>
+<script type="text/javascript" src="javascript/site.js"></script>
+<script>
+    $(function () {
+        $(".home_banner").MobileSlider({
+            width: 720,
+            height: 550
+        });
+    })
+</script>
+</body>
