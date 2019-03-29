@@ -1,6 +1,7 @@
 $blue:#5FC0CD;
 $white:#FFF;
 $black:#000000;
+$iconblue:#55a8b3;
 @mixin lastButton{
     display: flex;
     flex-direction: column;
@@ -36,21 +37,66 @@ header{
     height:.88rem;
     background-color: $blue;
     z-index: 9999;
+
     .employer{
-        border-radius: .1rem;  
-        height: .7rem;
-        width: 1.43rem;
-        background-color: #55A8B3;
-        border:none;
-        outline:none;
-        font-size: .34rem;
-        color: #fff;
+        display: none;
+        overflow: visible;
+        box-sizing: border-box;
+    }
+
+    // 点击前样式
+    input[type="radio"] + label{
+        
+        font-size: 0.34rem;
+        color: $white;
+        z-index: 1
+    }
+    input[type="radio"] + label::before {
+        content: "\a0"; 
+        display: inline-block;
+        vertical-align: middle;
+        width: 1.45rem;
+        line-height: .7rem;
+        margin-top: .09rem;
+        border-radius: .1rem;
+        text-align: center;
+        background: $iconblue;
+    }
+
+    // 点击后样式
+    input[type="radio"]:checked + label{
+        font-size: 0.34rem;
+        color: $iconblue;
+   
+    
+    }
+    input[type="radio"]:checked + label::before {
+ 
+        width: 1.45rem;
+        line-height: .7rem;
+        margin-top: .09rem;
+      
+        border-radius: .1rem;
+        text-align: center;
+  
+        background: $white;
+        cursor: default;
     }
     .nurse{
         @extend .employer;
         background-color: $white;
         color: $blue;
     }
+
+    
+    .employer:visited{
+        background-color: $white;
+        color: $blue;
+        .nurse{
+            background-color: #55A8B3;
+        }
+    }
+
     .Map{
         position: absolute;
         top: 50%;

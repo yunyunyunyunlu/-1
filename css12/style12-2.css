@@ -21,19 +21,56 @@ header {
 }
 
 header .employer, header .nurse {
+  display: none;
+  overflow: visible;
+  box-sizing: border-box;
+}
+
+header input[type="radio"] + label {
+  font-size: 0.34rem;
+  color: #FFF;
+  z-index: 1;
+}
+
+header input[type="radio"] + label::before {
+  content: "\a0";
+  display: inline-block;
+  vertical-align: middle;
+  width: 1.45rem;
+  line-height: .7rem;
+  margin-top: .09rem;
   border-radius: .1rem;
-  height: .7rem;
-  width: 1.43rem;
-  background-color: #55A8B3;
-  border: none;
-  outline: none;
-  font-size: .34rem;
-  color: #fff;
+  text-align: center;
+  background: #55a8b3;
+}
+
+header input[type="radio"]:checked + label {
+  font-size: 0.34rem;
+  color: #55a8b3;
+}
+
+header input[type="radio"]:checked + label::before {
+  width: 1.45rem;
+  line-height: .7rem;
+  margin-top: .09rem;
+  border-radius: .1rem;
+  text-align: center;
+  background: #FFF;
+  cursor: default;
 }
 
 header .nurse {
   background-color: #FFF;
   color: #5FC0CD;
+}
+
+header .employer:visited, header .nurse:visited {
+  background-color: #FFF;
+  color: #5FC0CD;
+}
+
+header .employer:visited .nurse, header .nurse:visited .nurse {
+  background-color: #55A8B3;
 }
 
 header .Map {
