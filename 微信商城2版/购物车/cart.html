@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="Keywords" content="cart" />
+    <meta name="Description" content="cart" />
+    <title>购物车</title>
+    <link rel="stylesheet" type="text/css" href="cart.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+        <header>
+                <img src="img/hcar.png">
+        <p>购物车</p>
+        
+        <a href="">编辑</a>
+            </header>
+        <main>
+
+            <div class="shangpin">
+                    <input type="checkbox" name="cai" id="1" class="checkbox"/>
+                    <label for="1" ></label>
+                    <img src="img/ceshi.png">
+                    <div class="shuoming">
+                        <p>美国火龙果</p>
+                        <p>备注：切丝</p>
+                        <del>删除</del>
+                        <div class="goods_num_adjust cohSize">
+                         
+                                <span id="buyReduceButton">
+                                   -
+                                </span>
+                                <input type='text' id="buyNums" onblur="checkBuyNums();" value="1">
+                                <span id="buyAddButton">+</span>
+                </div>
+                        </div>
+            </div>
+            
+                <div class="shangpin">
+                                <input type="checkbox" name="cai" id="2" class="checkbox"/>
+                                <label for="2" ></label>
+                                <img src="img/ceshi.png">
+                                <div class="shuoming">
+                                    <p>美国火龙果</p>
+                                    <p>备注：切丝</p>
+                                    <del>删除</del>
+                                    <div class="goods_num_adjust cohSize">
+                                
+                                            <span id="buyReduceButton">
+                                               -
+                                            </span>
+                                            <input type='text' id="buyNums" onblur="checkBuyNums();" value="1">
+                                            <span id="buyAddButton">+</span>
+                            </div>
+                                    </div>
+                        </div>
+                        <div class="shangpin">
+                                        <input type="checkbox" name="cai" id="3" class="checkbox"/>
+                                        <label for="3" ></label>
+                                        <img src="img/ceshi.png">
+                                        <div class="shuoming">
+                                            <p>美国火龙果</p>
+                                            <p>备注：切丝</p>
+                                            <div class="goods_num_adjust cohSize">
+                                        
+                                                    <span id="buyReduceButton">
+                                                       -
+                                                    </span>
+                                                    <input type='text' id="buyNums" onblur="checkBuyNums();" value="1">
+                                                    <span id="buyAddButton">+</span>
+                                    </div>
+                                            </div>
+                                </div>
+                                <div class="shangpin">
+                                                <input type="checkbox" name="cai" id="4" class="checkbox"/>
+                                                <label for="4" ></label>
+                                                <img src="img/ceshi.png">
+                                                <div class="shuoming">
+                                                    <p>美国火龙果</p>
+                                                    <p>备注：切丝</p>
+                                                    <div class="goods_num_adjust cohSize">
+                                                
+                                                            <span id="buyReduceButton">
+                                                               -
+                                                            </span>
+                                                            <input type='text' id="buyNums" onblur="checkBuyNums();" value="1">
+                                                            <span id="buyAddButton">+</span>
+                                            </div>
+                                                    </div>
+                                        </div>
+
+</main>
+<div class="xiadan">
+        <div class="quanxuan">
+                <input type="checkbox" name="cai" id="wRadio"/>
+                <p>全选</p>
+        </div>
+        <a href=""> <button type="button">确认下单</button></a>
+
+        </div>
+        <div class="footer1">
+ 
+                <a href=" ">
+                    <button type="button">
+                    <div class="iconHome1" style="background: url({skin:image/downicon.png}) 0 100%/100%;"></div>
+                    <p>首页</p >
+                </button>
+                </a>
+                <a href="{url:/site/sitemap}">
+                        <button type="button">
+                            <!-- < img src="img/icon.png"> -->
+                        <div class="iconHome2" style="background: url({skin:image/downicon.png}) 0 66%/100%;"></div>
+                        <p>分类</p >
+                    </button>
+                    </a>
+                    <img src="{skin:image/icon.png}">
+                    <a href="{url:/simple/cart}">
+                            <button type="button">
+                            <div class="iconHome3" style="background: url({skin:image/downicon1.png}) 0 32%/100%;"></div>
+                            <p  class="thispage">购物车</p >
+                        </button>
+                        </a>
+                        <a href="{url:/ucenter/index}">
+                                <button type="button">
+                                <div class="iconHome4" style="background: url({skin:image/downicon.png}) 0 0/100%;"></div>
+                                <p>我的</p >
+                            </button>
+                            </a>
+            </div>
+ 
+</body>
