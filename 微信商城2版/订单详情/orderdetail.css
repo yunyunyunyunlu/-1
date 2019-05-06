@@ -1,0 +1,275 @@
+body {
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+header {
+  position: fixed;
+  top: 0x;
+  left: 0;
+  display: flex;
+  align-items: flex-start;
+  padding: 10px 15px;
+  width: 100%;
+  box-sizing: border-box;
+  height: 200px;
+  background: linear-gradient(to bottom right, #56b82e, #ffffff);
+  z-index: -1;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+header p {
+  text-align: center;
+  margin: 0 10px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+header .return {
+  margin-top: 10px;
+  width: 10px;
+  height: 10px;
+  border: #ffffff;
+  border-style: solid;
+  border-width: 0 0 3px 3px;
+  transform: rotate(45deg);
+  transform-origin: 100% 50%;
+}
+
+main {
+  position: fixed;
+  top: 50px;
+  left: 0;
+  bottom: 50px;
+  padding: 0 15px;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+main .top {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 0 25px;
+}
+
+main .top p {
+  margin: 0;
+  align-self: flex-end;
+  color: #ffffff;
+}
+
+main .top img {
+  width: 150px;
+  height: 75px;
+}
+
+main .dingdanxinxi {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+main .dingdanxinxi .ads {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  border-bottom: 1px solid #8d8d8b;
+}
+
+main .dingdanxinxi .ads img {
+  margin: 0 15px;
+  width: 20px;
+  height: 23px;
+}
+
+main .dingdanxinxi .ads .name, main .dingdanxinxi .ads .site {
+  display: flex;
+}
+
+main .dingdanxinxi .ads .name p, main .dingdanxinxi .ads .site p {
+  margin: 0;
+  margin-right: 15px;
+  font-size: 10px;
+}
+
+main .dingdanxinxi .ads .name p:nth-child(2), main .dingdanxinxi .ads .site p:nth-child(2) {
+  color: #8d8d8b;
+}
+
+main .dingdanxinxi .ads .site {
+  margin-top: 10px;
+}
+
+main .dingdanxinxi .songtime {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  padding: 0 15px;
+  border-bottom: 5px solid #f5f5f5;
+}
+
+main .dingdanxinxi .songtime p {
+  font-size: 10px;
+  margin: 0;
+  color: #000;
+}
+
+main .dingdanxinxi .songtime p:nth-child(2) {
+  color: #8d8d8b;
+}
+
+main .dingdanxinxi .commodity {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+main .dingdanxinxi .commodity img {
+  margin-right: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+main .dingdanxinxi .commodity .commoMassage {
+  width: 100%;
+}
+
+main .dingdanxinxi .commodity .commoMassage .commoName, main .dingdanxinxi .commodity .commoMassage .moreBuy {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .dingdanxinxi .commodity .commoMassage .commoName p, main .dingdanxinxi .commodity .commoMassage .moreBuy p {
+  margin: 0;
+  font-size: 16px;
+}
+
+main .dingdanxinxi .commodity .commoMassage .commoName p:nth-child(2), main .dingdanxinxi .commodity .commoMassage .moreBuy p:nth-child(2) {
+  align-self: flex-end;
+  font-size: 10px;
+  color: #8d8d8b;
+}
+
+main .dingdanxinxi .commodity .commoMassage .moreBuy {
+  margin-top: 10px;
+}
+
+main .dingdanxinxi .commodity .commoMassage .moreBuy p {
+  font-size: 10px;
+  color: #8d8d8b;
+}
+
+main .dingdanxinxi .commodity .commoMassage .moreBuy a button {
+  border: 1px solid #f5f5f5;
+  background-color: #ffffff;
+  color: #f6581b;
+  width: 100px;
+  border-radius: 5%;
+}
+
+main .dingdanxinxi .orderInfo {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  border-top: 5px solid #f5f5f5;
+}
+
+main .dingdanxinxi .orderInfo div {
+  margin-right: 15px;
+}
+
+main .dingdanxinxi .orderInfo div p {
+  font-size: 10px;
+}
+
+main .dingdanxinxi .orderInfo div p button {
+  margin-left: 10px;
+  border: none;
+  background-color: #ffffff;
+  color: #f6581b;
+}
+
+main .dingdanxinxi .orderInfo div:nth-child(2) p {
+  font-size: 10px;
+  color: #8d8d8b;
+}
+
+main .dingdanxinxi .twoButton {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: auto;
+}
+
+main .dingdanxinxi .twoButton a button {
+  margin-right: 15px;
+  width: 80px;
+  height: 20px;
+  border: 1px solid #8d8d8b;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+main .dingdanxinxi .twoButton a:nth-child(2) button {
+  color: #f6581b;
+}
+
+.footer1 {
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 0 15px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+}
+
+.footer1 img {
+  width: 35px;
+  height: 30px;
+}
+
+.footer1 button {
+  background-color: #f5f5f5;
+  border: none;
+  outline: none;
+}
+
+.footer1 button .iconHome4 {
+  width: 25px;
+  height: 24px;
+}
+
+.footer1 button .iconHome3 {
+  width: 25px;
+  height: 23px;
+}
+
+.footer1 button .iconHome2 {
+  width: 25px;
+  height: 24px;
+}
+
+.footer1 button .iconHome1 {
+  width: 25px;
+  height: 22px;
+}
+
+.footer1 button p {
+  font-size: 10px;
+  margin: 2px 0 0 0;
+}
+
+.footer1 button .thispage {
+  color: #128f43;
+}
