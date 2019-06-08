@@ -100,56 +100,21 @@ main{
        margin-top: 10px;
 
        img{
-           margin-top:5px;
+           margin-top:0px;
            width: 100%;
            height: auto;
-           z-index: -11111;
-       }
-       }
-       .oneRow{
-        position: relative;
-        top:-50px;
-        left: 10px;
-           display: flex;
-           box-shadow: 3px 3px 2px #888888;
-           width: 95%;
       
-           overflow: auto;
-           background-color: $grey;
-   
-         
-           a{
-           
-               .list1{
-    
-            border-right: 1px solid #eed654;
-            width:7em;
-            height: 7em;
-            box-sizing: border-box;
-
-            .explain{
-                position: absolute;
-                bottom: 0;
-                width: 7em;
-                height: 20px;
-                background-color: rgba(86,184,46,.5);
-            p{
-                margin-top: 5px;
-                font-weight:bold;
-                color: #1f1f1f;
-                text-align: center;
-
-            }
-         
-            }
+       }
+       
+     
            }
  
        }
-    }
+    
 
-}
+
 .rukou{
-    margin-top: -35px;
+    margin-top: 1px;
     margin-bottom: 50px;
     img{
         width: 100%;
@@ -169,7 +134,7 @@ main{
     box-sizing: border-box;
 
     img{
-        width: 35px;
+        width:85x;
         height: 30px;
     }
     button{
